@@ -36,6 +36,8 @@
 
 <script>
     $(document).ready(async () => {
+        const filterHtml = $("#filters").html();
+
         const response = await fetch("wingspan_tournaments.json");
         const tourneys = await response.json();
         
@@ -70,6 +72,7 @@
                 this.tourneySelect = parentDiv.find(".tournament-select");
                 this.startSelect = parentDiv.find(".start-select");
                 this.clearButton = parentDiv.find(".clear-filters");
+                this.removeButton = parentDiv.find(".remove-comparison");
 
                 for (const user of users) {
                     this.userSelect.append(`<option value="${user}">${user}</option>`);
@@ -85,6 +88,15 @@
                     this.clear();
                     return false;
                 });
+
+                if (this.removeButton) {
+                    this.removeButton.on("click", (ev) => {
+                        this.parentDiv.remove();
+                        fieldsets = fieldsets.filter((fieldset) => fieldset !== this);
+                        redrawHistogram();
+                        return false;
+                    });
+                }
             }
 
             getScores() {
@@ -133,6 +145,24 @@
                 this.startSelect.on(event, callback);
                 this.clearCallback = callback;
             }
+
+            getLabel() {
+                const labelParts = [];
+                if (this.tourneySelect.val().length) {
+                    labelParts.push(`Tourney: ${this.tourneySelect.val().join(", ")}`);
+                }
+                if (this.userSelect.val().length) {
+                    labelParts.push(`User: ${this.userSelect.val().join(", ")}`);
+                }
+                if (this.startSelect.val()) {
+                    labelParts.push(`Starting Player: ${this.startSelect.val() == 0 ? "First" : "Second"}`);
+                }
+                if (labelParts.length) {
+                    return labelParts.join(", ");
+                } else {
+                    return "All data";
+                }
+            }
         }
 
         let fieldsets = [new FilterFieldset($("#filters"))];
@@ -142,12 +172,19 @@
             for (const fieldset of fieldsets) {
                 const scores = fieldset.getScores();
                 const mean = scores.reduce((a, b) => a + b, 0) / scores.length;
+                const label = `${fieldset.getLabel()} (Average Score = ${mean.toFixed(2)})`;
                 const trace = {
                     x: scores,
                     type: 'histogram',
                     histnorm: 'probability',
                     opacity: 0.75,
-                    name: `Average Score ${mean.toFixed(2)}`,
+                    name: label, 
+                    autobinx: false,
+                    xbins: {
+                        start: 45,
+                        end: 160, 
+                        size: 5, 
+                    }
                 };
                 traces.push(trace);
             }
@@ -155,8 +192,8 @@
             Plotly.newPlot('scoreHistogram', traces, {
                 showlegend: true,
                 barmode: "overlay", 
-                xaxis: {title: 'Wingspan score'},
                 yaxis: {title: 'Fraction of all scores'},
+                legend: {"orientation": "h"},
             
             });
         };   
@@ -164,6 +201,18 @@
         for (const fieldset of fieldsets) {
             fieldset.on("change", redrawHistogram);
         }
+
+        $('#add-comparison').on("click", (ev) => {
+            const newFieldsetEl = $("<fieldset></fieldset>");
+            newFieldsetEl.html(filterHtml);
+            newFieldsetEl.append("<button class='remove-comparison'>Remove comparison</button>");
+            $("#filters").after(newFieldsetEl);
+            const newFieldset = new FilterFieldset(newFieldsetEl);
+            newFieldset.on("change", redrawHistogram);
+            fieldsets.push(newFieldset);
+            redrawHistogram();
+            return false;
+        });
 
         redrawHistogram();
     });
