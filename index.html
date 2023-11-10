@@ -1,6 +1,7 @@
 <html>
 <head>
-    <title>Wingspan Tournament Data</title>
+    <meta charset="utf-8">
+    <title>Wingspan Tournament Data Visualization</title>
     <link rel="stylesheet" href="assets/chosen.min.css">
     <script src="assets/jquery.min.js"></script>
     <script src="assets/chosen.jquery.js"></script>
@@ -10,10 +11,26 @@
             width: 80%;
             margin: 0 auto;
         }
+        
+        header {
+            padding: 1rem;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            padding: 1rem;
+            left: 0;
+            right: 0;
+            text-align: center;
+            background: #f2f2f2;
+        }
     </style>
 </head>
 <body>
-    <h1>Wingspan Tournament Data</h1>
+    <header>
+        <h1>🦅 Wingspan Tournament Data Visualization 🦢</h1>
+    </header>
 
     <fieldset id="filters">
         <legend>Filters</legend>
@@ -32,6 +49,10 @@
     </button>
    <hr>
    <div id="scoreHistogram"></div>
+
+   <footer>
+    Made by 🦆<a href="https://github.com/GracklinOatBrant/wingspan-tournament-data">GracklinOatBrant</a>🕊 &mdash; <a href="https://discord.gg/ryUwcZZYC7">Tournament Discord</a>
+   </footer>
 </body>
 
 <script>
@@ -194,7 +215,9 @@
                 barmode: "overlay", 
                 yaxis: {title: 'Fraction of all scores'},
                 legend: {"orientation": "h"},
-            
+                title: {
+                    text: 'Wingspan Tournament Scores'
+                }
             });
         };   
 
