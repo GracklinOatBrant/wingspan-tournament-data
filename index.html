@@ -5,17 +5,31 @@
     <script src="assets/jquery.min.js"></script>
     <script src="assets/chosen.jquery.js"></script>
     <script src="assets/plotly.min.js"></script>
+    <style type="text/css">
+        body {
+            width: 80%;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
     <h1>Wingspan Tournament Data</h1>
 
-   <label>Tournament:<select data-placeholder="All tournaments" class="tournament-select" multiple></select></label>
-   <label>User:<select data-placeholder="All users" class="user-select" multiple></select></label>
-   <label>Starting Player:<select class="start-select">
-        <option value="">Both</option>
-        <option value="0">First</option>
-        <option value="1">Second</option>
-   </select></label>
+    <fieldset id="filters">
+        <legend>Filters</legend>
+        <label>Tournament:<select data-placeholder="All tournaments" class="tournament-select" multiple></select></label>
+        <label>User:<select data-placeholder="All users" class="user-select" multiple></select></label>
+        <label>Starting Player:<select class="start-select">
+                <option value="">Both</option>
+                <option value="0">First</option>
+                <option value="1">Second</option>
+        </select></label>
+        <button class='clear-filters'>Clear filters</button>
+    </fieldset>
+    <br>
+    <button id="add-comparison">
+        Add comparison
+    </button>
    <hr>
    <div id="scoreHistogram"></div>
 </body>
@@ -42,69 +56,116 @@
         }
         // alphabetize and convert to list
         const users = Array.from(userSet).sort();
-        console.log(users);
 
-        // add users to select
-        const userSelect = $(".user-select");
-        for (const user of users) {
-            userSelect.append(`<option value="${user}">${user}</option>`);
-        }
+        // aggregate tourney info
         const tourneyName = (tourney) => `${tourney.name} (${tourney.month} ${tourney.year})`;
         const tourneyNames = tourneys.map(tourneyName);
-        // add tourneys to select
-        const tourneySelect = $(".tournament-select");
-        for (const tourney of tourneyNames) {
-            tourneySelect.append(`<option value="${tourney}">${tourney}</option>`);
-        }
 
-        const startSelect = $(".start-select");
+        // create a helper class to initialize a fieldset that can contain nested selects
+        class FilterFieldset {
+            constructor(parentDiv) {
+                this.parentDiv = parentDiv;
 
-        $('select[multiple]').chosen({});
+                this.userSelect = parentDiv.find(".user-select");
+                this.tourneySelect = parentDiv.find(".tournament-select");
+                this.startSelect = parentDiv.find(".start-select");
+                this.clearButton = parentDiv.find(".clear-filters");
 
-        const redrawHistogram = () => {
-            const allScores = [];
-            for (const tourney of tourneys) {
-                if (tourneySelect.val().length && !tourneySelect.val().includes(tourneyName(tourney))) {
-                    continue;
+                for (const user of users) {
+                    this.userSelect.append(`<option value="${user}">${user}</option>`);
                 }
-                
-                for (const scores of tourney.scores) {
-                    const users = Object.keys(scores);
 
-                    for (let playerIdx = 0; playerIdx < users.length; playerIdx++) {
-                        const user = users[playerIdx];
-                        if (userSelect.val().length && !userSelect.val().includes(user)) {
-                            continue;
-                        }
-                        if (startSelect.val() && startSelect.val() !== playerIdx.toString()) {
-                            continue;
-                        }
-                        if (scores[user] == 0) {
-                            continue;
-                        }
-                        allScores.push(scores[user]);
+                for (const tourney of tourneyNames) {
+                    this.tourneySelect.append(`<option value="${tourney}">${tourney}</option>`);
+                }
+
+                parentDiv.find('select[multiple]').chosen({});
+
+                this.clearButton.on("click", (ev) => {
+                    this.clear();
+                    return false;
+                });
+            }
+
+            getScores() {
+                const allScores = [];
+
+                for (const tourney of tourneys) {
+                    if (this.tourneySelect.val().length && !this.tourneySelect.val().includes(tourneyName(tourney))) {
+                        continue;
                     }
+                    
+                    for (const scores of tourney.scores) {
+                        const users = Object.keys(scores);
 
+                        for (let playerIdx = 0; playerIdx < users.length; playerIdx++) {
+                            const user = users[playerIdx];
+                            if (this.userSelect.val().length && !this.userSelect.val().includes(user)) {
+                                continue;
+                            }
+                            if (this.startSelect.val() && this.startSelect.val() !== playerIdx.toString()) {
+                                continue;
+                            }
+                            if (scores[user] == 0) {
+                                continue;
+                            }
+                            allScores.push(scores[user]);
+                        }
+
+                    }
+                }
+
+                return allScores;
+            }
+
+            clear() {
+                this.userSelect.val('').trigger('chosen:updated');
+                this.tourneySelect.val('').trigger('chosen:updated');
+                this.startSelect.val('');
+                if (this.clearCallback) {
+                    this.clearCallback();
                 }
             }
-            window.scores = allScores;
-            const mean = allScores.reduce((a, b) => a + b, 0) / allScores.length;
-            // Use plotly to draw a histogram of tournament scores
-            const trace = {
-                x: allScores,
-                type: 'histogram',
-                name: `Average Score ${mean.toFixed(2)}`,
-            };
-            var data = [trace];
 
-            Plotly.newPlot('scoreHistogram', data, {showlegend: true});
+            on(event, callback) {
+                this.userSelect.on(event, callback);
+                this.tourneySelect.on(event, callback);
+                this.startSelect.on(event, callback);
+                this.clearCallback = callback;
+            }
+        }
+
+        let fieldsets = [new FilterFieldset($("#filters"))];
+
+        const redrawHistogram = () => {
+            const traces = []
+            for (const fieldset of fieldsets) {
+                const scores = fieldset.getScores();
+                const mean = scores.reduce((a, b) => a + b, 0) / scores.length;
+                const trace = {
+                    x: scores,
+                    type: 'histogram',
+                    histnorm: 'probability',
+                    opacity: 0.75,
+                    name: `Average Score ${mean.toFixed(2)}`,
+                };
+                traces.push(trace);
+            }
+            // Use plotly to draw a histogram of tournament scores
+            Plotly.newPlot('scoreHistogram', traces, {
+                showlegend: true,
+                barmode: "overlay", 
+                xaxis: {title: 'Wingspan score'},
+                yaxis: {title: 'Fraction of all scores'},
+            
+            });
         };   
 
-        redrawHistogram();
+        for (const fieldset of fieldsets) {
+            fieldset.on("change", redrawHistogram);
+        }
 
-        tourneySelect.on("change", redrawHistogram);
-        userSelect.on("change", redrawHistogram);
-        startSelect.on("change", redrawHistogram);
+        redrawHistogram();
     });
 </script>
 </html>
