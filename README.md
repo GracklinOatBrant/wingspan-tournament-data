@@ -16,7 +16,7 @@ jupyter notebook
 
 To test out changes to the extremely janky visualization, you can do something like:
 
-```
+```sh
 python -m http.server
 # then open http://localhost:8000 and start modifying index.html
 ```
