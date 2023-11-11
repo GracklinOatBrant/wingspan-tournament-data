@@ -50,11 +50,6 @@
     <fieldset id="filters">
         <label>Tournament:&nbsp;<select data-placeholder="All tournaments" class="tournament-select" multiple></select></label>
         <label>User:&nbsp;<select data-placeholder="All users" class="user-select" multiple></select></label>
-        <label>Starting Player:&nbsp;<div class='select is-small'><select class="start-select">
-                <option value="">Both</option>
-                <option value="0">First</option>
-                <option value="1">Second</option>
-        </select></div></label>
         <button class='button is-small clear-filters'>Clear filters</button>
     </fieldset>
     <button class='button is-small is-info' id="add-comparison">
@@ -104,7 +99,6 @@
 
                 this.userSelect = parentDiv.find(".user-select");
                 this.tourneySelect = parentDiv.find(".tournament-select");
-                this.startSelect = parentDiv.find(".start-select");
                 this.clearButton = parentDiv.find(".clear-filters");
                 this.removeButton = parentDiv.find(".remove-comparison");
 
@@ -149,9 +143,6 @@
                             if (this.userSelect.val().length && !this.userSelect.val().includes(user)) {
                                 continue;
                             }
-                            if (this.startSelect.val() && this.startSelect.val() !== playerIdx.toString()) {
-                                continue;
-                            }
                             if (scores[user] == 0) {
                                 continue;
                             }
@@ -167,7 +158,6 @@
             clear() {
                 this.userSelect.val('').trigger('chosen:updated');
                 this.tourneySelect.val('').trigger('chosen:updated');
-                this.startSelect.val('');
                 if (this.clearCallback) {
                     this.clearCallback();
                 }
@@ -176,7 +166,6 @@
             on(event, callback) {
                 this.userSelect.on(event, callback);
                 this.tourneySelect.on(event, callback);
-                this.startSelect.on(event, callback);
                 this.clearCallback = callback;
             }
 
@@ -187,9 +176,6 @@
                 }
                 if (this.userSelect.val().length) {
                     labelParts.push(`User: ${this.userSelect.val().join(", ")}`);
-                }
-                if (this.startSelect.val()) {
-                    labelParts.push(`Starting Player: ${this.startSelect.val() == 0 ? "First" : "Second"}`);
                 }
                 if (labelParts.length) {
                     return labelParts.join(", ");
