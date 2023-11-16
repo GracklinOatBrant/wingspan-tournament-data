@@ -161,6 +161,22 @@
                 }
             }
 
+            inputNames() {
+                return ['tourneySelect', 'fromDateInput', 'toDateInput', 'userSelect'];
+            }
+
+            getParams() {
+                const params = {};
+
+                for (const key of this.inputNames()) {
+                  if (this[key].val().length) {
+                     params[key] = this[key].val();
+                  }
+                }
+
+                return params;
+            }
+
             getScores() {
                 const allScores = [];
 
@@ -237,11 +253,10 @@
             }
         }
 
-        let fieldsets = [new FilterFieldset($("#filters"))];
-
         const redrawHistogram = () => {
             const traces = []
-            for (const fieldset of fieldsets) {
+            const params = [];
+            fieldsets.forEach((fieldset, i) => {
                 const scores = fieldset.getScores();
                 const mean = scores.reduce((a, b) => a + b, 0) / scores.length;
                 const label = `${fieldset.getLabel()} (Average Score = ${mean.toFixed(2)})`;
@@ -259,7 +274,13 @@
                     }
                 };
                 traces.push(trace);
-            }
+                params.push(fieldset.getParams());
+            });
+
+            const q = new URLSearchParams(location.search);
+            q.set('search', JSON.stringify(params));
+            history.replaceState({}, '', `${location.pathname}?${q}`);
+
             // Use plotly to draw a histogram of tournament scores
             Plotly.newPlot('scoreHistogram', traces, {
                 showlegend: true,
@@ -272,11 +293,13 @@
             });
         };   
 
+        let fieldsets = [new FilterFieldset($("#filters"))];
+
         for (const fieldset of fieldsets) {
             fieldset.on("change", redrawHistogram);
         }
 
-        $('#add-comparison').on("click", (ev) => {
+        function addFieldset() {
             const newFieldsetEl = $("<fieldset class='filter-fieldset'></fieldset>");
             newFieldsetEl.html(filterHtml);
             newFieldsetEl.append("<button class='button is-small is-warning remove-comparison'>Remove comparison</button>");
@@ -284,6 +307,22 @@
             const newFieldset = new FilterFieldset(newFieldsetEl);
             newFieldset.on("change", redrawHistogram);
             fieldsets.push(newFieldset);
+            return newFieldset;
+        }
+
+        const initParams = JSON.parse(new URLSearchParams(location.search).get('search'));
+
+        if (initParams && initParams.length > 1) {
+          initParams.slice(1).forEach(fieldsetParams => {
+            const newFieldset = addFieldset();
+            for (let key in fieldsetParams) {
+              newFieldset[key].val(fieldsetParams[key]).trigger('chosen:updated');
+            }
+          });
+        }
+
+        $('#add-comparison').on("click", (ev) => {
+            addFieldset();
             redrawHistogram();
             return false;
         });
