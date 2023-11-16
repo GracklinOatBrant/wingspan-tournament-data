@@ -72,7 +72,7 @@
     </header>
 
     <div class='container'>
-        <fieldset id="filters">
+        <fieldset id="filters" class='filter-fieldset'>
             <label>Tournament:&nbsp;<select data-placeholder="All tournaments" class="tournament-select" multiple></select></label>
             <label>User:&nbsp;<select data-placeholder="All users" class="user-select" multiple></select></label>
             <label>From:&nbsp;<input type='date' class='from-date-input'></label>
@@ -249,7 +249,7 @@
                     x: scores,
                     type: 'histogram',
                     histnorm: 'probability',
-                    opacity: 0.75,
+                    opacity: 0.5,
                     name: label, 
                     autobinx: false,
                     xbins: {
@@ -277,10 +277,10 @@
         }
 
         $('#add-comparison').on("click", (ev) => {
-            const newFieldsetEl = $("<fieldset></fieldset>");
+            const newFieldsetEl = $("<fieldset class='filter-fieldset'></fieldset>");
             newFieldsetEl.html(filterHtml);
             newFieldsetEl.append("<button class='button is-small is-warning remove-comparison'>Remove comparison</button>");
-            $("#filters").after(newFieldsetEl);
+            $(".filter-fieldset:last-of-type").after(newFieldsetEl);
             const newFieldset = new FilterFieldset(newFieldsetEl);
             newFieldset.on("change", redrawHistogram);
             fieldsets.push(newFieldset);
