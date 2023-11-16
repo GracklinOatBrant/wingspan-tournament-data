@@ -727,7 +727,7 @@
       },
       {
         "corvogordo": 90,
-        "Birdwatchermobile": 93
+        "Birdwatcher123": 93
       },
       {
         "Rube23": 86,
@@ -754,8 +754,8 @@
         "YYCchickadee": 81
       },
       {
-        "Birdwatchermobile": 100,
-        "Rube23": 87
+        "Rube23": 87,
+        "Birdwatcher123": 100
       },
       {
         "MortalWings": 71,
@@ -771,7 +771,7 @@
       },
       {
         "YYCchickadee": 110,
-        "Birdwatchermobile": 103
+        "Birdwatcher123": 103
       },
       {
         "dawnshark": 70,
@@ -782,8 +782,8 @@
         "StyloPlume": 65
       },
       {
-        "Birdwatchermobile": 111,
-        "Bluethroat4life": 78
+        "Bluethroat4life": 78,
+        "Birdwatcher123": 111
       },
       {
         "ComTruise": 92,
@@ -815,7 +815,7 @@
       },
       {
         "MortalWings": 66,
-        "Birdwatchermobile": 96
+        "Birdwatcher123": 96
       },
       {
         "StyloPlume": 85,
@@ -826,8 +826,8 @@
         "dawnshark": 67
       },
       {
-        "Birdwatchermobile": 107,
-        "StyloPlume": 92
+        "StyloPlume": 92,
+        "Birdwatcher123": 107
       },
       {
         "Kaienshin": 120,
@@ -859,15 +859,15 @@
       },
       {
         "ComTruise": 84,
-        "Birdwatchermobile": 95
+        "Birdwatcher123": 95
       },
       {
         "Kaienshin": 79,
         "ComTruise": 98
       },
       {
-        "Birdwatchermobile": 115,
-        "dawnshark": 74
+        "dawnshark": 74,
+        "Birdwatcher123": 115
       },
       {
         "corvogordo": 85,
@@ -898,8 +898,8 @@
         "corvogordo": 72
       },
       {
-        "Birdwatchermobile": 86,
-        "Kaienshin": 120
+        "Kaienshin": 120,
+        "Birdwatcher123": 86
       }
     ]
   },
@@ -1483,7 +1483,7 @@
     "scores": [
       {
         "DuchessOfClifton": 86,
-        "Jjlig2mobile2": 97
+        "Jjlig2": 97
       },
       {
         "Griffin Kenny (GSK)": 95,
@@ -1514,8 +1514,8 @@
         "phcrux": 94
       },
       {
-        "Jjlig2mobile2": 90,
-        "FoxAndWest": 89
+        "FoxAndWest": 89,
+        "Jjlig2": 90
       },
       {
         "DuchessOfClifton": 74,
@@ -1534,8 +1534,8 @@
         "Griffin Kenny (GSK)": 105
       },
       {
-        "Jjlig2mobile2": 85,
-        "Small FRie": 89
+        "Small FRie": 89,
+        "Jjlig2": 85
       },
       {
         "taykay (IGN toznom)": 95,
@@ -1543,7 +1543,7 @@
       },
       {
         "tirk44": 76,
-        "Jjlig2mobile2": 89
+        "Jjlig2": 89
       },
       {
         "Small FRie": 104,
@@ -1562,8 +1562,8 @@
         "CamSails": 90
       },
       {
-        "Jjlig2mobile2": 98,
-        "taykay (IGN toznom)": 91
+        "taykay (IGN toznom)": 91,
+        "Jjlig2": 98
       },
       {
         "Small FRie": 103,
@@ -1579,7 +1579,7 @@
       },
       {
         "CamSails": 89,
-        "Jjlig2mobile2": 98
+        "Jjlig2": 98
       },
       {
         "Griffin Kenny (GSK)": 102,
@@ -1594,8 +1594,8 @@
         "Sam09": 87
       },
       {
-        "Jjlig2mobile2": 99,
-        "Griffin Kenny (GSK)": 79
+        "Griffin Kenny (GSK)": 79,
+        "Jjlig2": 99
       },
       {
         "Small FRie": 92,
@@ -1622,8 +1622,8 @@
         "DuchessOfClifton": 96
       },
       {
-        "Jjlig2mobile2": 105,
-        "phcrux": 111
+        "phcrux": 111,
+        "Jjlig2": 105
       },
       {
         "FoxAndWest": 78,
@@ -2258,8 +2258,8 @@
         "Orcinus": 75
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 111,
-        "FungusAmungus": 84
+        "FungusAmungus": 84,
+        "ooievaar": 111
       },
       {
         "jeastthebeast": 90,
@@ -2283,7 +2283,7 @@
       },
       {
         "Orcinus": 119,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 88
+        "ooievaar": 88
       },
       {
         "Nico1968": 77,
@@ -2294,8 +2294,8 @@
         "FungusAmungus": 86
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 94,
-        "honolulu18": 86
+        "honolulu18": 86,
+        "ooievaar": 94
       },
       {
         "jeastthebeast": 110,
@@ -2327,7 +2327,7 @@
       },
       {
         "GeorgeV89": 86,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 79
+        "ooievaar": 79
       },
       {
         "jeastthebeast": 91,
@@ -2335,7 +2335,7 @@
       },
       {
         "emperortim2": 83,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 86
+        "ooievaar": 86
       },
       {
         "Shepherd0": 87,
@@ -2366,8 +2366,8 @@
         "Shepherd0": 79
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 97,
-        "jeastthebeast": 103
+        "jeastthebeast": 103,
+        "ooievaar": 97
       },
       {
         "emperortim2": 83,
@@ -2375,7 +2375,7 @@
       },
       {
         "Shepherd0": 79,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 93
+        "ooievaar": 93
       },
       {
         "Nico1968": 77,
@@ -2402,8 +2402,8 @@
         "Naketano": 82
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 93,
-        "Nico1968": 76
+        "Nico1968": 76,
+        "ooievaar": 93
       },
       {
         "jeastthebeast": 101,
@@ -2411,7 +2411,7 @@
       },
       {
         "Naketano": 101,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 127
+        "ooievaar": 127
       },
       {
         "Nico1968": 64,
@@ -3402,16 +3402,16 @@
         "gtrudat": 73
       },
       {
-        "Jjlig2mobile2": 87,
-        "Kaienshin": 92
+        "Kaienshin": 92,
+        "Jjlig2": 87
       },
       {
-        "Jjlig2mobile2": 88,
-        "Kaienshin": 79
+        "Kaienshin": 79,
+        "Jjlig2": 88
       },
       {
-        "Jjlig2mobile2": 92,
-        "Kaienshin": 99
+        "Kaienshin": 99,
+        "Jjlig2": 92
       },
       {
         "Eggsucker888": 96,
@@ -3451,11 +3451,11 @@
       },
       {
         "Picep": 101,
-        "cedarwax": 89
+        "maggie (cedarwax)": 89
       },
       {
         "Picep": 90,
-        "cedarwax": 76
+        "maggie (cedarwax)": 76
       },
       {
         "Ronster7": 87,
@@ -3483,11 +3483,11 @@
       },
       {
         "herc": 104,
-        "Birdwatchermobile": 101
+        "Birdwatcher123": 101
       },
       {
         "herc": 89,
-        "Birdwatchermobile": 85
+        "Birdwatcher123": 85
       },
       {
         "Groovenstein": 96,
@@ -3710,16 +3710,16 @@
         "Ronster7": 97
       },
       {
-        "Jjlig2mobile2": 108,
-        "Flan": 108
+        "Flan": 108,
+        "Jjlig2": 108
       },
       {
-        "Jjlig2mobile2": 76,
-        "Flan": 97
+        "Flan": 97,
+        "Jjlig2": 76
       },
       {
-        "Jjlig2mobile2": 92,
-        "Flan": 86
+        "Flan": 86,
+        "Jjlig2": 92
       },
       {
         "Sim17": 90,
@@ -3782,16 +3782,16 @@
         "EpicSaxGuy": 90
       },
       {
-        "Jjlig2mobile2": 94,
-        "Sim17": 94
+        "Sim17": 94,
+        "Jjlig2": 94
       },
       {
-        "Jjlig2mobile2": 93,
-        "Sim17": 103
+        "Sim17": 103,
+        "Jjlig2": 93
       },
       {
-        "Jjlig2mobile2": 87,
-        "Sim17": 97
+        "Sim17": 97,
+        "Jjlig2": 87
       },
       {
         "yordthesword": 102,
@@ -5291,7 +5291,7 @@
       },
       {
         "WeirdOwl": 85,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 80
+        "ooievaar": 80
       },
       {
         "smelly_cat": 78,
@@ -5306,8 +5306,8 @@
         "BlindSquirrel (fnjphone)": 106
       },
       {
-        "cedarwax": 103,
-        "Kestrelly": 85
+        "Kestrelly": 85,
+        "maggie (cedarwax)": 103
       },
       {
         "StyloPlume": 79,
@@ -5323,7 +5323,7 @@
       },
       {
         "BlindSquirrel (fnjphone)": 96,
-        "cedarwax": 88
+        "maggie (cedarwax)": 88
       },
       {
         "TheTinPeach (IGN)": 107,
@@ -5334,8 +5334,8 @@
         "eaglesquack": 90
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 73,
-        "smelly_cat": 77
+        "smelly_cat": 77,
+        "ooievaar": 73
       },
       {
         "King Pleb": 75,
@@ -5375,15 +5375,15 @@
       },
       {
         "eaglesquack": 79,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 86
+        "ooievaar": 86
       },
       {
         "Goldfinchy (ign Goldfinchy2)": 92,
         "MortalWings": 73
       },
       {
-        "cedarwax": 86,
-        "TheTinPeach (IGN)": 92
+        "TheTinPeach (IGN)": 92,
+        "maggie (cedarwax)": 86
       },
       {
         "StyloPlume": 121,
@@ -5395,7 +5395,7 @@
       },
       {
         "MortalWings": 101,
-        "cedarwax": 85
+        "maggie (cedarwax)": 85
       },
       {
         "BlindSquirrel (fnjphone)": 107,
@@ -5410,8 +5410,8 @@
         "LordDevastator (same ign)": 109
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 75,
-        "Goldfinchy (ign Goldfinchy2)": 84
+        "Goldfinchy (ign Goldfinchy2)": 84,
+        "ooievaar": 75
       },
       {
         "King Pleb": 80,
@@ -5458,8 +5458,8 @@
         "King Pleb": 72
       },
       {
-        "cedarwax": 118,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 90
+        "maggie (cedarwax)": 118,
+        "ooievaar": 90
       },
       {
         "StyloPlume": 116,
@@ -5486,12 +5486,12 @@
         "slejo (ign)": 71
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 87,
-        "StyloPlume": 103
+        "StyloPlume": 103,
+        "ooievaar": 87
       },
       {
         "King Pleb": 100,
-        "cedarwax": 71
+        "maggie (cedarwax)": 71
       },
       {
         "BlindSquirrel (fnjphone)": 94,
@@ -5534,8 +5534,8 @@
         "WhatDatFrogmoufDo (GMT -5)": 102
       },
       {
-        "cedarwax": 85,
-        "JoinBirdGang": 76
+        "JoinBirdGang": 76,
+        "maggie (cedarwax)": 85
       },
       {
         "LordDevastator (same ign)": 87,
@@ -5543,7 +5543,7 @@
       },
       {
         "slejo (ign)": 71,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 85
+        "ooievaar": 85
       },
       {
         "Kestrelly": 83,
@@ -5562,8 +5562,8 @@
         "BlindSquirrel (fnjphone)": 92
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 80,
-        "Kestrelly": 105
+        "Kestrelly": 105,
+        "ooievaar": 80
       },
       {
         "King Pleb": 82,
@@ -5575,7 +5575,7 @@
       },
       {
         "WhatDatFrogmoufDo (GMT -5)": 88,
-        "cedarwax": 104
+        "maggie (cedarwax)": 104
       },
       {
         "ben_havens": 110,
@@ -5595,7 +5595,7 @@
       },
       {
         "BlindSquirrel (fnjphone)": 81,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 85
+        "ooievaar": 85
       },
       {
         "smelly_cat": 76,
@@ -5610,8 +5610,8 @@
         "ComTruise": 85
       },
       {
-        "cedarwax": 90,
-        "ben_havens": 96
+        "ben_havens": 96,
+        "maggie (cedarwax)": 90
       },
       {
         "StyloPlume": 99,
@@ -5638,8 +5638,8 @@
         "smelly_cat": 88
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 87,
-        "TheTinPeach (IGN)": 68
+        "TheTinPeach (IGN)": 68,
+        "ooievaar": 87
       },
       {
         "King Pleb": 75,
@@ -5659,7 +5659,7 @@
       },
       {
         "ComTruise": 85,
-        "cedarwax": 71
+        "maggie (cedarwax)": 71
       },
       {
         "alexandrawuhu": 90,
@@ -5675,7 +5675,7 @@
       },
       {
         "MortalWings": 76,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 96
+        "ooievaar": 96
       },
       {
         "eaglesquack": 92,
@@ -5686,8 +5686,8 @@
         "Volzyman": 86
       },
       {
-        "cedarwax": 108,
-        "alexandrawuhu": 111
+        "alexandrawuhu": 111,
+        "maggie (cedarwax)": 108
       },
       {
         "StyloPlume": 112,
@@ -5743,11 +5743,11 @@
       },
       {
         "Volzyman": 121,
-        "cedarwax": 114
+        "maggie (cedarwax)": 114
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 104,
-        "LordDevastator (same ign)": 88
+        "LordDevastator (same ign)": 88,
+        "ooievaar": 104
       },
       {
         "smelly_cat": 72,
@@ -5762,8 +5762,8 @@
         "smelly_cat": 84
       },
       {
-        "cedarwax": 113,
-        "WeirdOwl": 102
+        "WeirdOwl": 102,
+        "maggie (cedarwax)": 113
       },
       {
         "StyloPlume": 101,
@@ -5790,8 +5790,8 @@
         "JoinBirdGang": 83
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 90,
-        "King Pleb": 90
+        "King Pleb": 90,
+        "ooievaar": 90
       },
       {
         "Volzyman": 84,
@@ -5799,7 +5799,7 @@
       },
       {
         "JoinBirdGang": 87,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 84
+        "ooievaar": 84
       },
       {
         "WhatDatFrogmoufDo (GMT -5)": 102,
@@ -5827,7 +5827,7 @@
       },
       {
         "smelly_cat": 80,
-        "cedarwax": 102
+        "maggie (cedarwax)": 102
       },
       {
         "eaglesquack": 93,
@@ -5838,8 +5838,8 @@
         "alexandrawuhu": 78
       },
       {
-        "cedarwax": 83,
-        "eaglesquack": 91
+        "eaglesquack": 91,
+        "maggie (cedarwax)": 83
       },
       {
         "StyloPlume": 115,
@@ -5866,8 +5866,8 @@
         "ben_havens": 95
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 97,
-        "WhatDatFrogmoufDo (GMT -5)": 80
+        "WhatDatFrogmoufDo (GMT -5)": 80,
+        "ooievaar": 97
       },
       {
         "King Pleb": 67,
@@ -5883,7 +5883,7 @@
       },
       {
         "ben_havens": 91,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 83
+        "ooievaar": 83
       },
       {
         "ComTruise": 78,
@@ -5911,7 +5911,7 @@
       },
       {
         "Goldfinchy (ign Goldfinchy2)": 86,
-        "cedarwax": 96
+        "maggie (cedarwax)": 96
       },
       {
         "Kestrelly": 66,
@@ -5927,7 +5927,7 @@
       },
       {
         "LordDevastator (same ign)": 88,
-        "cedarwax": 84
+        "maggie (cedarwax)": 84
       },
       {
         "BlindSquirrel (fnjphone)": 74,
@@ -5942,8 +5942,8 @@
         "alexandrawuhu": 93
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 75,
-        "ComTruise": 74
+        "ComTruise": 74,
+        "ooievaar": 75
       },
       {
         "King Pleb": 86,
@@ -5967,7 +5967,7 @@
       },
       {
         "alexandrawuhu": 110,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 107
+        "ooievaar": 107
       },
       {
         "Volzyman": 94,
@@ -5990,12 +5990,12 @@
         "slejo (ign)": 103
       },
       {
-        "cedarwax": 67,
-        "StyloPlume": 90
+        "StyloPlume": 90,
+        "maggie (cedarwax)": 67
       },
       {
         "slejo (ign)": 75,
-        "cedarwax": 102
+        "maggie (cedarwax)": 102
       },
       {
         "LordDevastator (same ign)": 82,
@@ -6018,8 +6018,8 @@
         "WeirdOwl": 84
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 90,
-        "Volzyman": 91
+        "Volzyman": 91,
+        "ooievaar": 90
       },
       {
         "King Pleb": 94,
@@ -6050,8 +6050,8 @@
         "Volzyman": 99
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 114,
-        "WeirdOwl": 108
+        "WeirdOwl": 108,
+        "ooievaar": 114
       },
       {
         "MortalWings": 75,
@@ -6067,7 +6067,7 @@
       },
       {
         "Kestrelly": 85,
-        "cedarwax": 82
+        "maggie (cedarwax)": 82
       },
       {
         "slejo (ign)": 95,
@@ -6082,8 +6082,8 @@
         "slejo (ign)": 84
       },
       {
-        "cedarwax": 76,
-        "BlindSquirrel (fnjphone)": 112
+        "BlindSquirrel (fnjphone)": 112,
+        "maggie (cedarwax)": 76
       },
       {
         "Goldfinchy (ign Goldfinchy2)": 74,
@@ -6095,7 +6095,7 @@
       },
       {
         "smelly_cat": 74,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 85
+        "ooievaar": 85
       },
       {
         "WeirdOwl": 84,
@@ -6134,8 +6134,8 @@
         "smelly_cat": 108
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 85,
-        "eaglesquack": 91
+        "eaglesquack": 91,
+        "ooievaar": 85
       },
       {
         "MortalWings": 106,
@@ -6143,7 +6143,7 @@
       },
       {
         "TheTinPeach (IGN)": 64,
-        "cedarwax": 80
+        "maggie (cedarwax)": 80
       },
       {
         "BlindSquirrel (fnjphone)": 65,
@@ -6154,8 +6154,8 @@
         "slejo (ign)": 88
       },
       {
-        "cedarwax": 107,
-        "MortalWings": 85
+        "MortalWings": 85,
+        "maggie (cedarwax)": 107
       },
       {
         "slejo (ign)": 103,
@@ -6171,7 +6171,7 @@
       },
       {
         "Goldfinchy (ign Goldfinchy2)": 81,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 90
+        "ooievaar": 90
       },
       {
         "eaglesquack": 101,
@@ -6218,8 +6218,8 @@
         "Goldfinchy (ign Goldfinchy2)": 90
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 116,
-        "cedarwax": 87
+        "ooievaar": 116,
+        "maggie (cedarwax)": 87
       },
       {
         "MortalWings": 96,
@@ -6247,11 +6247,11 @@
       },
       {
         "StyloPlume": 82,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 87
+        "ooievaar": 87
       },
       {
-        "cedarwax": 91,
-        "King Pleb": 85
+        "King Pleb": 85,
+        "maggie (cedarwax)": 91
       },
       {
         "LordDevastator (same ign)": 90,
@@ -6295,15 +6295,15 @@
       },
       {
         "JoinBirdGang": 84,
-        "cedarwax": 87
+        "maggie (cedarwax)": 87
       },
       {
         "Volzyman": 95,
         "LordDevastator (same ign)": 82
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 84,
-        "slejo (ign)": 96
+        "slejo (ign)": 96,
+        "ooievaar": 84
       },
       {
         "MortalWings": 88,
@@ -6323,7 +6323,7 @@
       },
       {
         "Kestrelly": 89,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 79
+        "ooievaar": 79
       },
       {
         "slejo (ign)": 95,
@@ -6334,8 +6334,8 @@
         "JoinBirdGang": 84
       },
       {
-        "cedarwax": 107,
-        "WhatDatFrogmoufDo (GMT -5)": 71
+        "WhatDatFrogmoufDo (GMT -5)": 71,
+        "maggie (cedarwax)": 107
       },
       {
         "Goldfinchy (ign Goldfinchy2)": 105,
@@ -6354,8 +6354,8 @@
         "Volzyman": 94
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 94,
-        "BlindSquirrel (fnjphone)": 96
+        "BlindSquirrel (fnjphone)": 96,
+        "ooievaar": 94
       },
       {
         "Volzyman": 101,
@@ -6371,7 +6371,7 @@
       },
       {
         "ben_havens": 88,
-        "cedarwax": 83
+        "maggie (cedarwax)": 83
       },
       {
         "WhatDatFrogmoufDo (GMT -5)": 84,
@@ -6399,7 +6399,7 @@
       },
       {
         "TheTinPeach (IGN)": 73,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 81
+        "ooievaar": 81
       },
       {
         "BlindSquirrel (fnjphone)": 89,
@@ -6418,8 +6418,8 @@
         "ben_havens": 111
       },
       {
-        "cedarwax": 114,
-        "ComTruise": 105
+        "ComTruise": 105,
+        "maggie (cedarwax)": 114
       },
       {
         "Goldfinchy (ign Goldfinchy2)": 83,
@@ -6434,8 +6434,8 @@
         "MortalWings": 111
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 73,
-        "MortalWings": 78
+        "MortalWings": 78,
+        "ooievaar": 73
       },
       {
         "WeirdOwl": 99,
@@ -6447,7 +6447,7 @@
       },
       {
         "alexandrawuhu": 85,
-        "cedarwax": 96
+        "maggie (cedarwax)": 96
       },
       {
         "ComTruise": 75,
@@ -6502,12 +6502,12 @@
         "alexandrawuhu": 101
       },
       {
-        "cedarwax": 79,
-        "Volzyman": 78
+        "Volzyman": 78,
+        "maggie (cedarwax)": 79
       },
       {
         "LordDevastator (same ign)": 89,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 82
+        "ooievaar": 82
       },
       {
         "eaglesquack": 83,
@@ -6523,7 +6523,7 @@
       },
       {
         "WeirdOwl": 122,
-        "cedarwax": 78
+        "maggie (cedarwax)": 78
       },
       {
         "Volzyman": 96,
@@ -6551,15 +6551,15 @@
       },
       {
         "King Pleb": 82,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 93
+        "ooievaar": 93
       },
       {
         "slejo (ign)": 76,
         "Volzyman": 114
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 79,
-        "JoinBirdGang": 80
+        "JoinBirdGang": 80,
+        "ooievaar": 79
       },
       {
         "MortalWings": 66,
@@ -6586,8 +6586,8 @@
         "WeirdOwl": 84
       },
       {
-        "cedarwax": 92,
-        "smelly_cat": 88
+        "smelly_cat": 88,
+        "maggie (cedarwax)": 92
       },
       {
         "Goldfinchy (ign Goldfinchy2)": 68,
@@ -6599,7 +6599,7 @@
       },
       {
         "eaglesquack": 82,
-        "cedarwax": 86
+        "maggie (cedarwax)": 86
       },
       {
         "smelly_cat": 86,
@@ -6627,7 +6627,7 @@
       },
       {
         "WhatDatFrogmoufDo (GMT -5)": 80,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 75
+        "ooievaar": 75
       },
       {
         "JoinBirdGang": 76,
@@ -6642,8 +6642,8 @@
         "WhatDatFrogmoufDo (GMT -5)": 90
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 82,
-        "ben_havens": 67
+        "ben_havens": 67,
+        "ooievaar": 82
       },
       {
         "MortalWings": 90,
@@ -6670,8 +6670,8 @@
         "eaglesquack": 104
       },
       {
-        "cedarwax": 99,
-        "Goldfinchy (ign Goldfinchy2)": 90
+        "Goldfinchy (ign Goldfinchy2)": 90,
+        "maggie (cedarwax)": 99
       },
       {
         "smelly_cat": 85,
@@ -6686,8 +6686,8 @@
         "slejo (ign)": 81
       },
       {
-        "cedarwax": 96,
-        "LordDevastator (same ign)": 95
+        "LordDevastator (same ign)": 95,
+        "maggie (cedarwax)": 96
       },
       {
         "WeirdOwl": 83,
@@ -6703,7 +6703,7 @@
       },
       {
         "ComTruise": 84,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 74
+        "ooievaar": 74
       },
       {
         "ben_havens": 71,
@@ -6726,8 +6726,8 @@
         "WhatDatFrogmoufDo (GMT -5)": 94
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 88,
-        "alexandrawuhu": 84
+        "alexandrawuhu": 84,
+        "ooievaar": 88
       },
       {
         "MortalWings": 68,
@@ -6751,11 +6751,11 @@
       },
       {
         "StyloPlume": 93,
-        "cedarwax": 96
+        "maggie (cedarwax)": 96
       },
       {
-        "cedarwax": 86,
-        "slejo (ign)": 89
+        "slejo (ign)": 89,
+        "maggie (cedarwax)": 86
       },
       {
         "StyloPlume": 101,
@@ -6779,7 +6779,7 @@
       },
       {
         "Volzyman": 108,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 70
+        "ooievaar": 70
       },
       {
         "alexandrawuhu": 85,
@@ -9863,7 +9863,7 @@
       },
       {
         "BobPrime": 98,
-        "Birdwatchermobile": 96
+        "Birdwatcher123": 96
       },
       {
         "queenfisher1": 97,
@@ -9887,7 +9887,7 @@
       },
       {
         "BlutzollFeuerball (IGN)": 114,
-        "Jjlig2mobile2": 101
+        "Jjlig2": 101
       },
       {
         "BeansOnToast": 74,
@@ -9906,8 +9906,8 @@
         "egyptianmessi": 91
       },
       {
-        "Jjlig2mobile2": 98,
-        "BeansOnToast": 114
+        "BeansOnToast": 114,
+        "Jjlig2": 98
       },
       {
         "SPAKEME": 98,
@@ -9930,8 +9930,8 @@
         "vpol55": 93
       },
       {
-        "Birdwatchermobile": 112,
-        "queenfisher1": 99
+        "queenfisher1": 99,
+        "Birdwatcher123": 112
       },
       {
         "tomnomnommy": 92,
@@ -9939,7 +9939,7 @@
       },
       {
         "vpol55": 85,
-        "Birdwatchermobile": 77
+        "Birdwatcher123": 77
       },
       {
         "queenfisher1": 119,
@@ -9971,7 +9971,7 @@
       },
       {
         "emperortim2": 91,
-        "Jjlig2mobile2": 82
+        "Jjlig2": 82
       },
       {
         "bushNIT": 93,
@@ -9982,8 +9982,8 @@
         "BeansOnToast": 87
       },
       {
-        "Jjlig2mobile2": 116,
-        "bushNIT": 105
+        "bushNIT": 105,
+        "Jjlig2": 116
       },
       {
         "SPAKEME": 104,
@@ -10006,8 +10006,8 @@
         "Stoney318": 78
       },
       {
-        "Birdwatchermobile": 97,
-        "Shepherd0": 100
+        "Shepherd0": 100,
+        "Birdwatcher123": 97
       },
       {
         "tomnomnommy": 83,
@@ -10031,7 +10031,7 @@
       },
       {
         "Stoney318": 92,
-        "Birdwatchermobile": 87
+        "Birdwatcher123": 87
       },
       {
         "egyptianmessi": 85,
@@ -10055,7 +10055,7 @@
       },
       {
         "Swagmulis (SAMULIS)": 90,
-        "Jjlig2mobile2": 98
+        "Jjlig2": 98
       },
       {
         "FloatingLakes": 104,
@@ -10078,12 +10078,12 @@
         "BeansOnToast": 110
       },
       {
-        "Jjlig2mobile2": 103,
-        "egyptianmessi": 87
+        "egyptianmessi": 87,
+        "Jjlig2": 103
       },
       {
-        "Birdwatchermobile": 105,
-        "NoRavens": 118
+        "NoRavens": 118,
+        "Birdwatcher123": 105
       },
       {
         "tomnomnommy": 103,
@@ -10115,7 +10115,7 @@
       },
       {
         "BlutzollFeuerball (IGN)": 79,
-        "Birdwatchermobile": 91
+        "Birdwatcher123": 91
       },
       {
         "BeansOnToast": 115,
@@ -10134,8 +10134,8 @@
         "Kaienshin": 73
       },
       {
-        "Jjlig2mobile2": 105,
-        "SPAKEME": 107
+        "SPAKEME": 107,
+        "Jjlig2": 105
       },
       {
         "BobPrime": 89,
@@ -10143,7 +10143,7 @@
       },
       {
         "Kaienshin": 128,
-        "Jjlig2mobile2": 98
+        "Jjlig2": 98
       },
       {
         "SegalLikeTheBird": 111,
@@ -10158,8 +10158,8 @@
         "emperortim2": 104
       },
       {
-        "Birdwatchermobile": 98,
-        "BeansOnToast": 113
+        "BeansOnToast": 113,
+        "Birdwatcher123": 98
       },
       {
         "tomnomnommy": 83,
@@ -10178,8 +10178,8 @@
         "Shepherd0": 92
       },
       {
-        "Jjlig2mobile2": 94,
-        "SegalLikeTheBird": 84
+        "SegalLikeTheBird": 84,
+        "Jjlig2": 94
       },
       {
         "Stoney318": 100,
@@ -10199,7 +10199,7 @@
       },
       {
         "emperortim2": 110,
-        "Birdwatchermobile": 93
+        "Birdwatcher123": 93
       },
       {
         "bushNIT": 97,
@@ -10227,15 +10227,15 @@
       },
       {
         "Theflash": 109,
-        "Jjlig2mobile2": 92
+        "Jjlig2": 92
       },
       {
         "FloatingLakes": 107,
         "Swagmulis (SAMULIS)": 96
       },
       {
-        "Birdwatchermobile": 108,
-        "bushNIT": 100
+        "bushNIT": 100,
+        "Birdwatcher123": 108
       },
       {
         "tomnomnommy": 110,
@@ -10283,11 +10283,11 @@
       },
       {
         "Swagmulis (SAMULIS)": 86,
-        "Birdwatchermobile": 98
+        "Birdwatcher123": 98
       },
       {
-        "Jjlig2mobile2": 99,
-        "FloatingLakes": 112
+        "FloatingLakes": 112,
+        "Jjlig2": 99
       },
       {
         "SPAKEME": 99,
@@ -10310,8 +10310,8 @@
         "SPAKEME": 89
       },
       {
-        "Birdwatchermobile": 92,
-        "Jjlig2mobile2": 96
+        "Birdwatcher123": 92,
+        "Jjlig2": 96
       },
       {
         "tomnomnommy": 77,
@@ -10339,7 +10339,7 @@
       },
       {
         "SPAKEME": 91,
-        "Birdwatchermobile": 81
+        "Birdwatcher123": 81
       },
       {
         "BlutzollFeuerball (IGN)": 94,
@@ -10362,8 +10362,8 @@
         "BobPrime": 99
       },
       {
-        "Jjlig2mobile2": 94,
-        "tomnomnommy": 93
+        "tomnomnommy": 93,
+        "Jjlig2": 94
       },
       {
         "egyptianmessi": 90,
@@ -10386,8 +10386,8 @@
         "SegalLikeTheBird": 92
       },
       {
-        "Birdwatchermobile": 80,
-        "Kaienshin": 93
+        "Kaienshin": 93,
+        "Birdwatcher123": 80
       },
       {
         "tomnomnommy": 83,
@@ -10395,7 +10395,7 @@
       },
       {
         "BobPrime": 89,
-        "Jjlig2mobile2": 104
+        "Jjlig2": 104
       },
       {
         "queenfisher1": 94,
@@ -10418,8 +10418,8 @@
         "BlutzollFeuerball (IGN)": 118
       },
       {
-        "Jjlig2mobile2": 106,
-        "queenfisher1": 97
+        "queenfisher1": 97,
+        "Jjlig2": 106
       },
       {
         "BeansOnToast": 121,
@@ -10451,7 +10451,7 @@
       },
       {
         "SegalLikeTheBird": 104,
-        "Birdwatchermobile": 81
+        "Birdwatcher123": 81
       },
       {
         "Theflash": 101,
@@ -10462,8 +10462,8 @@
         "SPAKEME": 109
       },
       {
-        "Birdwatchermobile": 90,
-        "Theflash": 116
+        "Theflash": 116,
+        "Birdwatcher123": 90
       },
       {
         "tomnomnommy": 131,
@@ -10479,7 +10479,7 @@
       },
       {
         "vpol55": 95,
-        "Jjlig2mobile2": 85
+        "Jjlig2": 85
       },
       {
         "Shepherd0": 93,
@@ -10514,8 +10514,8 @@
         "BeansOnToast": 106
       },
       {
-        "Jjlig2mobile2": 115,
-        "Shepherd0": 98
+        "Shepherd0": 98,
+        "Jjlig2": 115
       },
       {
         "SPAKEME": 87,
@@ -10535,7 +10535,7 @@
       },
       {
         "FloatingLakes": 87,
-        "Birdwatchermobile": 106
+        "Birdwatcher123": 106
       },
       {
         "BobPrime": 93,
@@ -10546,8 +10546,8 @@
         "FloatingLakes": 111
       },
       {
-        "Birdwatchermobile": 87,
-        "egyptianmessi": 84
+        "egyptianmessi": 84,
+        "Birdwatcher123": 87
       },
       {
         "queenfisher1": 92,
@@ -10563,7 +10563,7 @@
       },
       {
         "Stoney318": 117,
-        "Jjlig2mobile2": 95
+        "Jjlig2": 95
       },
       {
         "NoRavens": 93,
@@ -10590,8 +10590,8 @@
         "BlutzollFeuerball (IGN)": 92
       },
       {
-        "Jjlig2mobile2": 102,
-        "NoRavens": 115
+        "NoRavens": 115,
+        "Jjlig2": 102
       },
       {
         "SPAKEME": 85,
@@ -10614,16 +10614,16 @@
         "BobPrime": 96
       },
       {
-        "Birdwatchermobile": 97,
-        "tomnomnommy": 89
+        "tomnomnommy": 89,
+        "Birdwatcher123": 97
       },
       {
         "tomnomnommy": 96,
         "egyptianmessi": 111
       },
       {
-        "Birdwatchermobile": 95,
-        "BobPrime": 104
+        "BobPrime": 104,
+        "Birdwatcher123": 95
       },
       {
         "FloatingLakes": 99,
@@ -10646,8 +10646,8 @@
         "NoRavens": 91
       },
       {
-        "Jjlig2mobile2": 91,
-        "BlutzollFeuerball (IGN)": 84
+        "BlutzollFeuerball (IGN)": 84,
+        "Jjlig2": 91
       },
       {
         "Swagmulis (SAMULIS)": 109,
@@ -10667,7 +10667,7 @@
       },
       {
         "BeansOnToast": 87,
-        "Jjlig2mobile2": 98
+        "Jjlig2": 98
       },
       {
         "BlutzollFeuerball (IGN)": 109,
@@ -10691,15 +10691,15 @@
       },
       {
         "queenfisher1": 108,
-        "Birdwatchermobile": 90
+        "Birdwatcher123": 90
       },
       {
         "BobPrime": 99,
         "tomnomnommy": 84
       },
       {
-        "Birdwatchermobile": 94,
-        "vpol55": 83
+        "vpol55": 83,
+        "Birdwatcher123": 94
       },
       {
         "tomnomnommy": 96,
@@ -10730,8 +10730,8 @@
         "BeansOnToast": 108
       },
       {
-        "Jjlig2mobile2": 115,
-        "emperortim2": 115
+        "emperortim2": 115,
+        "Jjlig2": 115
       },
       {
         "Swagmulis (SAMULIS)": 112,
@@ -10743,7 +10743,7 @@
       },
       {
         "bushNIT": 98,
-        "Jjlig2mobile2": 100
+        "Jjlig2": 100
       },
       {
         "emperortim2": 90,
@@ -10767,7 +10767,7 @@
       },
       {
         "Shepherd0": 98,
-        "Birdwatchermobile": 108
+        "Birdwatcher123": 108
       },
       {
         "vpol55": 105,
@@ -10790,8 +10790,8 @@
         "Shepherd0": 95
       },
       {
-        "Birdwatchermobile": 90,
-        "Stoney318": 100
+        "Stoney318": 100,
+        "Birdwatcher123": 90
       },
       {
         "queenfisher1": 112,
@@ -10814,8 +10814,8 @@
         "bushNIT": 97
       },
       {
-        "Jjlig2mobile2": 83,
-        "Swagmulis (SAMULIS)": 81
+        "Swagmulis (SAMULIS)": 81,
+        "Jjlig2": 83
       },
       {
         "BlutzollFeuerball (IGN)": 90,
@@ -10839,11 +10839,11 @@
       },
       {
         "egyptianmessi": 100,
-        "Jjlig2mobile2": 118
+        "Jjlig2": 118
       },
       {
         "NoRavens": 106,
-        "Birdwatchermobile": 92
+        "Birdwatcher123": 92
       },
       {
         "Stoney318": 85,
@@ -10874,8 +10874,8 @@
         "NoRavens": 107
       },
       {
-        "Birdwatchermobile": 101,
-        "BlutzollFeuerball (IGN)": 125
+        "BlutzollFeuerball (IGN)": 125,
+        "Birdwatcher123": 101
       },
       {
         "FloatingLakes": 92,
@@ -10895,15 +10895,15 @@
       },
       {
         "SPAKEME": 115,
-        "Jjlig2mobile2": 93
+        "Jjlig2": 93
       },
       {
         "NoRavens": 91,
         "BobPrime": 80
       },
       {
-        "Jjlig2mobile2": 93,
-        "Kaienshin": 95
+        "Kaienshin": 95,
+        "Jjlig2": 93
       },
       {
         "Swagmulis (SAMULIS)": 80,
@@ -10919,7 +10919,7 @@
       },
       {
         "BeansOnToast": 94,
-        "Birdwatchermobile": 103
+        "Birdwatcher123": 103
       },
       {
         "BlutzollFeuerball (IGN)": 98,
@@ -10939,7 +10939,7 @@
       },
       {
         "SegalLikeTheBird": 92,
-        "Jjlig2mobile2": 112
+        "Jjlig2": 112
       },
       {
         "vpol55": 102,
@@ -10958,8 +10958,8 @@
         "BeansOnToast": 85
       },
       {
-        "Birdwatchermobile": 102,
-        "emperortim2": 87
+        "emperortim2": 87,
+        "Birdwatcher123": 102
       },
       {
         "FloatingLakes": 102,
@@ -10986,8 +10986,8 @@
         "SegalLikeTheBird": 95
       },
       {
-        "Jjlig2mobile2": 110,
-        "Theflash": 109
+        "Theflash": 109,
+        "Jjlig2": 110
       },
       {
         "Swagmulis (SAMULIS)": 90,
@@ -10995,7 +10995,7 @@
       },
       {
         "bushNIT": 105,
-        "Birdwatchermobile": 93
+        "Birdwatcher123": 93
       },
       {
         "emperortim2": 87,
@@ -11042,12 +11042,12 @@
         "bushNIT": 92
       },
       {
-        "Birdwatchermobile": 96,
-        "Swagmulis (SAMULIS)": 114
+        "Swagmulis (SAMULIS)": 114,
+        "Birdwatcher123": 96
       },
       {
         "FloatingLakes": 121,
-        "Jjlig2mobile2": 113
+        "Jjlig2": 113
       },
       {
         "Theflash": 90,
@@ -11070,8 +11070,8 @@
         "FloatingLakes": 116
       },
       {
-        "Jjlig2mobile2": 84,
-        "Birdwatchermobile": 102
+        "Jjlig2": 84,
+        "Birdwatcher123": 102
       },
       {
         "Swagmulis (SAMULIS)": 74,
@@ -11098,8 +11098,8 @@
         "Stoney318": 98
       },
       {
-        "Birdwatchermobile": 95,
-        "SPAKEME": 103
+        "SPAKEME": 103,
+        "Birdwatcher123": 95
       },
       {
         "Stoney318": 96,
@@ -11123,7 +11123,7 @@
       },
       {
         "tomnomnommy": 108,
-        "Jjlig2mobile2": 96
+        "Jjlig2": 96
       },
       {
         "NoRavens": 105,
@@ -11147,15 +11147,15 @@
       },
       {
         "Kaienshin": 89,
-        "Birdwatchermobile": 101
+        "Birdwatcher123": 101
       },
       {
         "SPAKEME": 82,
         "tomnomnommy": 103
       },
       {
-        "Jjlig2mobile2": 83,
-        "BobPrime": 91
+        "BobPrime": 91,
+        "Jjlig2": 83
       },
       {
         "Swagmulis (SAMULIS)": 84,
@@ -11179,7 +11179,7 @@
       },
       {
         "queenfisher1": 125,
-        "Jjlig2mobile2": 124
+        "Jjlig2": 124
       },
       {
         "NoRavens": 85,
@@ -11210,8 +11210,8 @@
         "Kaienshin": 97
       },
       {
-        "Birdwatchermobile": 104,
-        "SegalLikeTheBird": 105
+        "SegalLikeTheBird": 105,
+        "Birdwatcher123": 104
       },
       {
         "FloatingLakes": 100,
@@ -11223,7 +11223,7 @@
       },
       {
         "Theflash": 60,
-        "Birdwatchermobile": 86
+        "Birdwatcher123": 86
       },
       {
         "SegalLikeTheBird": 86,
@@ -11238,8 +11238,8 @@
         "FloatingLakes": 86
       },
       {
-        "Jjlig2mobile2": 106,
-        "vpol55": 91
+        "vpol55": 91,
+        "Jjlig2": 106
       },
       {
         "Swagmulis (SAMULIS)": 78,
@@ -11275,7 +11275,7 @@
       },
       {
         "Shepherd0": 96,
-        "Jjlig2mobile2": 117
+        "Jjlig2": 117
       },
       {
         "vpol55": 102,
@@ -11294,8 +11294,8 @@
         "Theflash": 98
       },
       {
-        "Birdwatchermobile": 83,
-        "FloatingLakes": 99
+        "FloatingLakes": 99,
+        "Birdwatcher123": 83
       },
       {
         "Theflash": 90,
@@ -11307,7 +11307,7 @@
       },
       {
         "egyptianmessi": 101,
-        "Birdwatchermobile": 105
+        "Birdwatcher123": 105
       },
       {
         "SegalLikeTheBird": 91,
@@ -11322,8 +11322,8 @@
         "Shepherd0": 77
       },
       {
-        "Jjlig2mobile2": 97,
-        "Stoney318": 98
+        "Stoney318": 98,
+        "Jjlig2": 97
       },
       {
         "Swagmulis (SAMULIS)": 86,
@@ -11351,7 +11351,7 @@
       },
       {
         "NoRavens": 86,
-        "Jjlig2mobile2": 84
+        "Jjlig2": 84
       },
       {
         "Stoney318": 101,
@@ -11375,7 +11375,7 @@
       },
       {
         "tomnomnommy": 87,
-        "Birdwatchermobile": 95
+        "Birdwatcher123": 95
       }
     ]
   },
@@ -13498,8 +13498,8 @@
         "Flan": 134
       },
       {
-        "cedarwax": 115,
-        "Owlstanding": 104
+        "Owlstanding": 104,
+        "maggie (cedarwax)": 115
       },
       {
         "Tayray": 93,
@@ -13507,7 +13507,7 @@
       },
       {
         "Flan": 117,
-        "cedarwax": 110
+        "maggie (cedarwax)": 110
       },
       {
         "EpicSaxGuy": 102,
@@ -13522,16 +13522,16 @@
         "Owlstanding": 76
       },
       {
-        "cedarwax": 99,
-        "Ireku": 77
+        "Ireku": 77,
+        "maggie (cedarwax)": 99
       },
       {
         "Tayray": 98,
         "TheTinPeach (IGN)": 83
       },
       {
-        "cedarwax": 77,
-        "Tayray": 96
+        "Tayray": 96,
+        "maggie (cedarwax)": 77
       },
       {
         "Flan": 106,
@@ -13591,7 +13591,7 @@
       },
       {
         "Arceusisgood": 94,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 95
+        "ooievaar": 95
       },
       {
         "YippeeCahier": 54,
@@ -13602,12 +13602,12 @@
         "Goldfinchy (ign Goldfinchy2)": 84
       },
       {
-        "Jjlig2mobile2": 81,
-        "Jlim (Johnlim)": 85
+        "Jlim (Johnlim)": 85,
+        "Jjlig2": 81
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 72,
-        "Kestrelly": 82
+        "Kestrelly": 82,
+        "ooievaar": 72
       },
       {
         "Goldfinchy (ign Goldfinchy2)": 98,
@@ -13623,19 +13623,19 @@
       },
       {
         "Ronster7": 100,
-        "Jjlig2mobile2": 100
+        "Jjlig2": 100
       },
       {
         "Goldfinchy (ign Goldfinchy2)": 92,
         "Arceusisgood": 107
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 105,
-        "Jjlig2mobile2": 115
+        "Jjlig2": 115,
+        "ooievaar": 105
       },
       {
         "Arceusisgood": 94,
-        "Jjlig2mobile2": 82
+        "Jjlig2": 82
       },
       {
         "Jlim (Johnlim)": 87,
@@ -14575,15 +14575,15 @@
       },
       {
         "ScaredofBirds": 94,
-        "ScottCS (MortalWings)": 88
+        "MortalWings": 88
       },
       {
         "ScaredofBirds": 94,
-        "ScottCS (MortalWings)": 97
+        "MortalWings": 97
       },
       {
         "ScaredofBirds": 101,
-        "ScottCS (MortalWings)": 88
+        "MortalWings": 88
       },
       {
         "Flan": 91,
@@ -14879,15 +14879,15 @@
       },
       {
         "Nedmund": 80,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 107
+        "ooievaar": 107
       },
       {
         "Nedmund": 101,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 93
+        "ooievaar": 93
       },
       {
         "Nedmund": 84,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 77
+        "ooievaar": 77
       },
       {
         "Robin (IGN: TurnLooseTheSwans)": 73,
@@ -17886,8 +17886,8 @@
         "Stalledbird": 87
       },
       {
-        "Wingsplain": 110,
-        "Groovenstein": 116
+        "Groovenstein": 116,
+        "Wingsplain Gaming (ShadowFox)": 110
       },
       {
         "Theflash": 106,
@@ -17911,7 +17911,7 @@
       },
       {
         "Stalledbird": 105,
-        "Wingsplain": 100
+        "Wingsplain Gaming (ShadowFox)": 100
       },
       {
         "Ltrudat": 76,
@@ -17922,8 +17922,8 @@
         "Groovenstein": 104
       },
       {
-        "Wingsplain": 93,
-        "DurdleGerg": 102
+        "DurdleGerg": 102,
+        "Wingsplain Gaming (ShadowFox)": 93
       },
       {
         "Theflash": 65,
@@ -17955,7 +17955,7 @@
       },
       {
         "Bargoff": 85,
-        "Wingsplain": 87
+        "Wingsplain Gaming (ShadowFox)": 87
       },
       {
         "Theflash": 98,
@@ -17963,7 +17963,7 @@
       },
       {
         "Owlstanding": 117,
-        "Wingsplain": 93
+        "Wingsplain Gaming (ShadowFox)": 93
       },
       {
         "A-Team (Salrantol)": 82,
@@ -17994,8 +17994,8 @@
         "A-Team (Salrantol)": 90
       },
       {
-        "Wingsplain": 79,
-        "Theflash": 99
+        "Theflash": 99,
+        "Wingsplain Gaming (ShadowFox)": 79
       },
       {
         "Owlstanding": 146,
@@ -18003,7 +18003,7 @@
       },
       {
         "A-Team (Salrantol)": 87,
-        "Wingsplain": 73
+        "Wingsplain Gaming (ShadowFox)": 73
       },
       {
         "Ltrudat": 91,
@@ -18030,8 +18030,8 @@
         "KevinJayHawk": 90
       },
       {
-        "Wingsplain": 98,
-        "Ltrudat": 87
+        "Ltrudat": 87,
+        "Wingsplain Gaming (ShadowFox)": 98
       },
       {
         "Theflash": 83,
@@ -18039,7 +18039,7 @@
       },
       {
         "KevinJayHawk": 74,
-        "Wingsplain": 113
+        "Wingsplain Gaming (ShadowFox)": 113
       },
       {
         "Ltrudat": 80,
@@ -19150,8 +19150,8 @@
         "Erik (IGN: Vleugelslag)": 77
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 90,
-        "Kip (ign: HaveAGoodOne)": 77
+        "Kip (ign: HaveAGoodOne)": 77,
+        "ooievaar": 90
       },
       {
         "jeastthebeast": 94,
@@ -19163,7 +19163,7 @@
       },
       {
         "Erik (IGN: Vleugelslag)": 77,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 84
+        "ooievaar": 84
       },
       {
         "EpicSaxGuy": 107,
@@ -19182,8 +19182,8 @@
         "Skogsduvan": 91
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 71,
-        "EpicSaxGuy": 122
+        "EpicSaxGuy": 122,
+        "ooievaar": 71
       },
       {
         "jeastthebeast": 88,
@@ -19203,7 +19203,7 @@
       },
       {
         "Skogsduvan": 68,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 77
+        "ooievaar": 77
       },
       {
         "motherlove": 89,
@@ -19218,8 +19218,8 @@
         "de Visme": 86
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 85,
-        "motherlove": 99
+        "motherlove": 99,
+        "ooievaar": 85
       },
       {
         "jeastthebeast": 74,
@@ -19247,7 +19247,7 @@
       },
       {
         "de Visme": 88,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 82
+        "ooievaar": 82
       },
       {
         "MotherTuckers (10)": 95,
@@ -19283,7 +19283,7 @@
       },
       {
         "GeorgeV89": 90,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 89
+        "ooievaar": 89
       },
       {
         "jeastthebeast": 89,
@@ -19318,12 +19318,12 @@
         "Stayfun": 96
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 95,
-        "jeastthebeast": 69
+        "jeastthebeast": 69,
+        "ooievaar": 95
       },
       {
         "Stayfun": 80,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 103
+        "ooievaar": 103
       },
       {
         "Kip (ign: HaveAGoodOne)": 78,
@@ -20254,12 +20254,12 @@
     "date": "2022-07-22T03:23:34.213-05:00",
     "scores": [
       {
-        "Wingsplain": 110,
-        "Owlstanding": 101
+        "Owlstanding": 101,
+        "Wingsplain Gaming (ShadowFox)": 110
       },
       {
-        "Wingsplain": 101,
-        "Owlstanding": 87
+        "Owlstanding": 87,
+        "Wingsplain Gaming (ShadowFox)": 101
       },
       {
         "maggie (cedarwax)": 80,
@@ -20351,11 +20351,11 @@
       },
       {
         "Waterman": 92,
-        "Johnlim": 76
+        "Jlim (Johnlim)": 76
       },
       {
         "Waterman": 91,
-        "Johnlim": 80
+        "Jlim (Johnlim)": 80
       },
       {
         "jorf": 85,
@@ -20547,15 +20547,15 @@
       },
       {
         "jeastthebeast": 86,
-        "Wingsplain": 89
+        "Wingsplain Gaming (ShadowFox)": 89
       },
       {
         "jeastthebeast": 96,
-        "Wingsplain": 83
+        "Wingsplain Gaming (ShadowFox)": 83
       },
       {
         "jeastthebeast": 96,
-        "Wingsplain": 88
+        "Wingsplain Gaming (ShadowFox)": 88
       },
       {
         "Dozi": 85,
@@ -22627,7 +22627,7 @@
       },
       {
         "hillpartridge": 106,
-        "Johnlim": 105
+        "Jlim (Johnlim)": 105
       },
       {
         "Nuhring": 92,
@@ -22654,8 +22654,8 @@
         "FourthHabitat": 78
       },
       {
-        "Johnlim": 79,
-        "Nuhring": 81
+        "Nuhring": 81,
+        "Jlim (Johnlim)": 79
       },
       {
         "devilled egg": 63,
@@ -22711,7 +22711,7 @@
       },
       {
         "FourthHabitat": 81,
-        "Johnlim": 102
+        "Jlim (Johnlim)": 102
       },
       {
         "SPAKEME": 94,
@@ -22730,8 +22730,8 @@
         "Theflash": 89
       },
       {
-        "Johnlim": 82,
-        "SPAKEME": 93
+        "SPAKEME": 93,
+        "Jlim (Johnlim)": 82
       },
       {
         "DrGrainslove": 83,
@@ -22795,7 +22795,7 @@
       },
       {
         "Theflash": 99,
-        "Johnlim": 97
+        "Jlim (Johnlim)": 97
       },
       {
         "DrGrainslove": 99,
@@ -22806,8 +22806,8 @@
         "Nuhring": 90
       },
       {
-        "Johnlim": 99,
-        "DrGrainslove": 95
+        "DrGrainslove": 95,
+        "Jlim (Johnlim)": 99
       },
       {
         "devilled egg": 77,
@@ -22879,7 +22879,7 @@
       },
       {
         "Yellowhammer": 85,
-        "Johnlim": 93
+        "Jlim (Johnlim)": 93
       },
       {
         "Stalledbird": 79,
@@ -22910,8 +22910,8 @@
         "Nuhring": 92
       },
       {
-        "Johnlim": 109,
-        "Jollyroll": 84
+        "Jollyroll": 84,
+        "Jlim (Johnlim)": 109
       },
       {
         "Orcinus": 92,
@@ -22958,8 +22958,8 @@
         "AverythePigeon": 87
       },
       {
-        "Johnlim": 105,
-        "devilled egg": 77
+        "devilled egg": 77,
+        "Jlim (Johnlim)": 105
       },
       {
         "AverythePigeon": 104,
@@ -22967,7 +22967,7 @@
       },
       {
         "Tobias": 89,
-        "Johnlim": 88
+        "Jlim (Johnlim)": 88
       },
       {
         "MichaelTheGrackle": 95,
@@ -23034,8 +23034,8 @@
         "sccblazer": 96
       },
       {
-        "Johnlim": 81,
-        "MichaelTheGrackle": 68
+        "MichaelTheGrackle": 68,
+        "Jlim (Johnlim)": 81
       },
       {
         "Jollyroll": 83,
@@ -23051,7 +23051,7 @@
       },
       {
         "sccblazer": 110,
-        "Johnlim": 117
+        "Jlim (Johnlim)": 117
       },
       {
         "matthew9890": 97,
@@ -23082,8 +23082,8 @@
         "hillpartridge": 80
       },
       {
-        "Johnlim": 87,
-        "matthew9890": 122
+        "matthew9890": 122,
+        "Jlim (Johnlim)": 87
       },
       {
         "Nuhring": 123,
@@ -23135,7 +23135,7 @@
       },
       {
         "BlackSpice28": 77,
-        "Johnlim": 86
+        "Jlim (Johnlim)": 86
       },
       {
         "Stalledbird": 87,
@@ -23186,8 +23186,8 @@
         "Nuhring": 90
       },
       {
-        "Johnlim": 91,
-        "Stalledbird": 87
+        "Stalledbird": 87,
+        "Jlim (Johnlim)": 91
       },
       {
         "devilled egg": 77,
@@ -23203,7 +23203,7 @@
       },
       {
         "Orcinus": 83,
-        "Johnlim": 85
+        "Jlim (Johnlim)": 85
       },
       {
         "matthew9890": 73,
@@ -23262,8 +23262,8 @@
         "AverythePigeon": 106
       },
       {
-        "Johnlim": 66,
-        "Middlife": 83
+        "Middlife": 83,
+        "Jlim (Johnlim)": 66
       },
       {
         "devilled egg": 94,
@@ -23303,7 +23303,7 @@
       },
       {
         "AverythePigeon": 71,
-        "Johnlim": 79
+        "Jlim (Johnlim)": 79
       },
       {
         "Birdwatcher123": 101,
@@ -23338,8 +23338,8 @@
         "hillpartridge": 109
       },
       {
-        "Johnlim": 98,
-        "Birdwatcher123": 91
+        "Birdwatcher123": 91,
+        "Jlim (Johnlim)": 98
       },
       {
         "devilled egg": 92,
@@ -23386,8 +23386,8 @@
         "Birdwatcher123": 120
       },
       {
-        "Johnlim": 70,
-        "hillpartridge": 91
+        "hillpartridge": 91,
+        "Jlim (Johnlim)": 70
       },
       {
         "Yellowhammer": 84,
@@ -23415,7 +23415,7 @@
       },
       {
         "Nuhring": 89,
-        "Johnlim": 86
+        "Jlim (Johnlim)": 86
       },
       {
         "hillpartridge": 83,
@@ -23470,8 +23470,8 @@
         "Nuhring": 92
       },
       {
-        "Johnlim": 84,
-        "FourthHabitat": 102
+        "FourthHabitat": 102,
+        "Jlim (Johnlim)": 84
       },
       {
         "Yellowhammer": 101,
@@ -23491,7 +23491,7 @@
       },
       {
         "SPAKEME": 100,
-        "Johnlim": 142
+        "Jlim (Johnlim)": 142
       },
       {
         "Jollyroll": 84,
@@ -23554,8 +23554,8 @@
         "SPAKEME": 95
       },
       {
-        "Johnlim": 89,
-        "Theflash": 100
+        "Theflash": 100,
+        "Jlim (Johnlim)": 89
       },
       {
         "Yellowhammer": 90,
@@ -23567,7 +23567,7 @@
       },
       {
         "DrGrainslove": 87,
-        "Johnlim": 92
+        "Jlim (Johnlim)": 92
       },
       {
         "Theflash": 91,
@@ -23638,8 +23638,8 @@
         "DrGrainslove": 81
       },
       {
-        "Johnlim": 88,
-        "Yellowhammer": 86
+        "Yellowhammer": 86,
+        "Jlim (Johnlim)": 88
       },
       {
         "hillpartridge": 66,
@@ -23671,7 +23671,7 @@
       },
       {
         "Jollyroll": 79,
-        "Johnlim": 87
+        "Jlim (Johnlim)": 87
       },
       {
         "Birdwatcher123": 77,
@@ -23719,15 +23719,15 @@
       },
       {
         "devilled egg": 101,
-        "Johnlim": 91
+        "Jlim (Johnlim)": 91
       },
       {
         "Birdwatcher123": 86,
         "AverythePigeon": 85
       },
       {
-        "Johnlim": 75,
-        "Tobias": 84
+        "Tobias": 84,
+        "Jlim (Johnlim)": 75
       },
       {
         "Yellowhammer": 80,
@@ -23795,7 +23795,7 @@
       },
       {
         "MichaelTheGrackle": 92,
-        "Johnlim": 96
+        "Jlim (Johnlim)": 96
       },
       {
         "Birdwatcher123": 87,
@@ -23810,8 +23810,8 @@
         "MichaelTheGrackle": 87
       },
       {
-        "Johnlim": 107,
-        "sccblazer": 88
+        "sccblazer": 88,
+        "Jlim (Johnlim)": 107
       },
       {
         "Yellowhammer": 94,
@@ -23843,7 +23843,7 @@
       },
       {
         "matthew9890": 98,
-        "Johnlim": 95
+        "Jlim (Johnlim)": 95
       },
       {
         "Birdwatcher123": 80,
@@ -23894,8 +23894,8 @@
         "matthew9890": 78
       },
       {
-        "Johnlim": 84,
-        "BlackSpice28": 101
+        "BlackSpice28": 101,
+        "Jlim (Johnlim)": 84
       },
       {
         "Yellowhammer": 96,
@@ -23947,7 +23947,7 @@
       },
       {
         "Stalledbird": 80,
-        "Johnlim": 80
+        "Jlim (Johnlim)": 80
       },
       {
         "BlackSpice28": 95,
@@ -23962,8 +23962,8 @@
         "MichaelTheGrackle": 80
       },
       {
-        "Johnlim": 84,
-        "Orcinus": 89
+        "Orcinus": 89,
+        "Jlim (Johnlim)": 84
       },
       {
         "MichaelTheGrackle": 76,
@@ -24023,7 +24023,7 @@
       },
       {
         "Middlife": 92,
-        "Johnlim": 85
+        "Jlim (Johnlim)": 85
       },
       {
         "Orcinus": 90,
@@ -24062,8 +24062,8 @@
         "Middlife": 96
       },
       {
-        "Johnlim": 83,
-        "AverythePigeon": 67
+        "AverythePigeon": 67,
+        "Jlim (Johnlim)": 83
       },
       {
         "Yellowhammer": 97,
@@ -24099,7 +24099,7 @@
       },
       {
         "Birdwatcher123": 105,
-        "Johnlim": 84
+        "Jlim (Johnlim)": 84
       },
       {
         "AverythePigeon": 84,
@@ -25678,8 +25678,8 @@
         "ScaredofBirds": 86
       },
       {
-        "Wingsplain": 93,
-        "sibert": 85
+        "sibert": 85,
+        "Wingsplain Gaming (ShadowFox)": 93
       },
       {
         "FloatingLakes": 98,
@@ -25703,7 +25703,7 @@
       },
       {
         "ScaredofBirds": 117,
-        "Wingsplain": 98
+        "Wingsplain Gaming (ShadowFox)": 98
       },
       {
         "Captainawesome": 89,
@@ -25750,8 +25750,8 @@
         "saephir": 102
       },
       {
-        "Wingsplain": 86,
-        "Captainawesome": 81
+        "Captainawesome": 81,
+        "Wingsplain Gaming (ShadowFox)": 86
       },
       {
         "FloatingLakes": 126,
@@ -25783,7 +25783,7 @@
       },
       {
         "saephir": 105,
-        "Wingsplain": 103
+        "Wingsplain Gaming (ShadowFox)": 103
       },
       {
         "BalletMage": 95,
@@ -25822,8 +25822,8 @@
         "Ronster7": 85
       },
       {
-        "Wingsplain": 100,
-        "BalletMage": 106
+        "BalletMage": 106,
+        "Wingsplain Gaming (ShadowFox)": 100
       },
       {
         "FloatingLakes": 93,
@@ -25843,7 +25843,7 @@
       },
       {
         "Lord Viga": 92,
-        "Wingsplain": 122
+        "Wingsplain Gaming (ShadowFox)": 122
       },
       {
         "ScaredofBirds": 109,
@@ -25898,8 +25898,8 @@
         "Stoney318": 93
       },
       {
-        "Wingsplain": 85,
-        "Alex (IGN: Zarypov)": 105
+        "Alex (IGN: Zarypov)": 105,
+        "Wingsplain Gaming (ShadowFox)": 85
       },
       {
         "FloatingLakes": 90,
@@ -25947,7 +25947,7 @@
       },
       {
         "Stoney318": 92,
-        "Wingsplain": 83
+        "Wingsplain Gaming (ShadowFox)": 83
       },
       {
         "ScaredofBirds": 84,
@@ -25974,8 +25974,8 @@
         "Ronster7": 97
       },
       {
-        "Wingsplain": 73,
-        "Owlstanding": 83
+        "Owlstanding": 83,
+        "Wingsplain Gaming (ShadowFox)": 73
       },
       {
         "FloatingLakes": 90,
@@ -26031,7 +26031,7 @@
       },
       {
         "Ronster7": 95,
-        "Wingsplain": 96
+        "Wingsplain Gaming (ShadowFox)": 96
       },
       {
         "jeastthebeast": 108,
@@ -26050,8 +26050,8 @@
         "NoRavens": 103
       },
       {
-        "Wingsplain": 72,
-        "jeastthebeast": 95
+        "jeastthebeast": 95,
+        "Wingsplain Gaming (ShadowFox)": 72
       },
       {
         "FloatingLakes": 88,
@@ -26083,7 +26083,7 @@
       },
       {
         "NoRavens": 94,
-        "Wingsplain": 86
+        "Wingsplain Gaming (ShadowFox)": 86
       },
       {
         "BalletMage": 89,
@@ -26122,8 +26122,8 @@
         "Alex (IGN: Zarypov)": 95
       },
       {
-        "Wingsplain": 106,
-        "Daniel Naumovas (Daniel)": 98
+        "Daniel Naumovas (Daniel)": 98,
+        "Wingsplain Gaming (ShadowFox)": 106
       },
       {
         "FloatingLakes": 90,
@@ -26191,7 +26191,7 @@
       },
       {
         "gtrudat": 105,
-        "Wingsplain": 88
+        "Wingsplain Gaming (ShadowFox)": 88
       },
       {
         "sibert": 101,
@@ -26215,7 +26215,7 @@
       },
       {
         "krasnyoktyabr": 76,
-        "Wingsplain": 96
+        "Wingsplain Gaming (ShadowFox)": 96
       },
       {
         "ScaredofBirds": 83,
@@ -26266,8 +26266,8 @@
         "ChopYouUp": 118
       },
       {
-        "Wingsplain": 110,
-        "FloatingLakes": 90
+        "FloatingLakes": 90,
+        "Wingsplain Gaming (ShadowFox)": 110
       },
       {
         "Dozi": 102,
@@ -26275,7 +26275,7 @@
       },
       {
         "ChopYouUp": 95,
-        "Wingsplain": 94
+        "Wingsplain Gaming (ShadowFox)": 94
       },
       {
         "Croaker": 82,
@@ -26338,8 +26338,8 @@
         "Dozi": 95
       },
       {
-        "Wingsplain": 93,
-        "Croaker": 111
+        "Croaker": 111,
+        "Wingsplain Gaming (ShadowFox)": 93
       },
       {
         "FloatingLakes": 94,
@@ -26355,7 +26355,7 @@
       },
       {
         "Dozi": 76,
-        "Wingsplain": 94
+        "Wingsplain Gaming (ShadowFox)": 94
       },
       {
         "sibert": 103,
@@ -26407,7 +26407,7 @@
       },
       {
         "sibert": 80,
-        "Wingsplain": 107
+        "Wingsplain Gaming (ShadowFox)": 107
       },
       {
         "Dozi": 77,
@@ -26430,8 +26430,8 @@
         "sibert": 99
       },
       {
-        "Wingsplain": 88,
-        "ScaredofBirds": 81
+        "ScaredofBirds": 81,
+        "Wingsplain Gaming (ShadowFox)": 88
       },
       {
         "gtrudat": 97,
@@ -26475,7 +26475,7 @@
       },
       {
         "Captainawesome": 103,
-        "Wingsplain": 99
+        "Wingsplain Gaming (ShadowFox)": 99
       },
       {
         "ScaredofBirds": 93,
@@ -26506,8 +26506,8 @@
         "Dozi": 82
       },
       {
-        "Wingsplain": 108,
-        "saephir": 112
+        "saephir": 112,
+        "Wingsplain Gaming (ShadowFox)": 108
       },
       {
         "gtrudat": 101,
@@ -26547,7 +26547,7 @@
       },
       {
         "BalletMage": 88,
-        "Wingsplain": 86
+        "Wingsplain Gaming (ShadowFox)": 86
       },
       {
         "saephir": 78,
@@ -26566,8 +26566,8 @@
         "Dozi": 89
       },
       {
-        "Wingsplain": 100,
-        "Lord Viga": 88
+        "Lord Viga": 88,
+        "Wingsplain Gaming (ShadowFox)": 100
       },
       {
         "Dozi": 83,
@@ -26623,7 +26623,7 @@
       },
       {
         "Alex (IGN: Zarypov)": 93,
-        "Wingsplain": 67
+        "Wingsplain Gaming (ShadowFox)": 67
       },
       {
         "Lord Viga": 92,
@@ -26670,8 +26670,8 @@
         "Alex (IGN: Zarypov)": 104
       },
       {
-        "Wingsplain": 81,
-        "Stoney318": 95
+        "Stoney318": 95,
+        "Wingsplain Gaming (ShadowFox)": 81
       },
       {
         "krasnyoktyabr": 104,
@@ -26699,7 +26699,7 @@
       },
       {
         "Owlstanding": 91,
-        "Wingsplain": 85
+        "Wingsplain Gaming (ShadowFox)": 85
       },
       {
         "Stoney318": 96,
@@ -26750,8 +26750,8 @@
         "Owlstanding": 97
       },
       {
-        "Wingsplain": 99,
-        "Ronster7": 92
+        "Ronster7": 92,
+        "Wingsplain Gaming (ShadowFox)": 99
       },
       {
         "gtrudat": 87,
@@ -26771,7 +26771,7 @@
       },
       {
         "jeastthebeast": 91,
-        "Wingsplain": 69
+        "Wingsplain Gaming (ShadowFox)": 69
       },
       {
         "Ronster7": 102,
@@ -26802,8 +26802,8 @@
         "krasnyoktyabr": 94
       },
       {
-        "Wingsplain": 103,
-        "NoRavens": 98
+        "NoRavens": 98,
+        "Wingsplain Gaming (ShadowFox)": 103
       },
       {
         "Captainawesome": 86,
@@ -26843,7 +26843,7 @@
       },
       {
         "Daniel Naumovas (Daniel)": 82,
-        "Wingsplain": 100
+        "Wingsplain Gaming (ShadowFox)": 100
       },
       {
         "NoRavens": 76,
@@ -26910,8 +26910,8 @@
         "Daniel Naumovas (Daniel)": 97
       },
       {
-        "Wingsplain": 106,
-        "gtrudat": 84
+        "gtrudat": 84,
+        "Wingsplain Gaming (ShadowFox)": 106
       },
       {
         "Ronster7": 96,
@@ -26934,8 +26934,8 @@
         "Dozi": 90
       },
       {
-        "Wingsplain": 93,
-        "krasnyoktyabr": 80
+        "krasnyoktyabr": 80,
+        "Wingsplain Gaming (ShadowFox)": 93
       },
       {
         "Owlstanding": 101,
@@ -26987,15 +26987,15 @@
       },
       {
         "FloatingLakes": 85,
-        "Wingsplain": 72
+        "Wingsplain Gaming (ShadowFox)": 72
       },
       {
         "Daniel Naumovas (Daniel)": 108,
         "Dozi": 110
       },
       {
-        "Wingsplain": 88,
-        "ChopYouUp": 87
+        "ChopYouUp": 87,
+        "Wingsplain Gaming (ShadowFox)": 88
       },
       {
         "gtrudat": 87,
@@ -27059,7 +27059,7 @@
       },
       {
         "Croaker": 85,
-        "Wingsplain": 80
+        "Wingsplain Gaming (ShadowFox)": 80
       },
       {
         "ChopYouUp": 109,
@@ -27074,8 +27074,8 @@
         "krasnyoktyabr": 84
       },
       {
-        "Wingsplain": 90,
-        "Dozi": 82
+        "Dozi": 82,
+        "Wingsplain Gaming (ShadowFox)": 90
       },
       {
         "gtrudat": 77,
@@ -27515,15 +27515,15 @@
       },
       {
         "ethmah01": 100,
-        "Mliguori16 (Birdwatcher123)": 83
+        "Birdwatcher123": 83
       },
       {
         "Sim17": 93,
         "devilled egg": 96
       },
       {
-        "Mliguori16 (Birdwatcher123)": 87,
-        "Sim17": 104
+        "Sim17": 104,
+        "Birdwatcher123": 87
       },
       {
         "robertfrench#2823 (robbiedobbie)": 96,
@@ -27543,7 +27543,7 @@
       },
       {
         "devilled egg": 109,
-        "Mliguori16 (Birdwatcher123)": 94
+        "Birdwatcher123": 94
       },
       {
         "robertfrench#2823 (robbiedobbie)": 91,
@@ -27566,12 +27566,12 @@
         "Julius": 119
       },
       {
-        "Mliguori16 (Birdwatcher123)": 91,
-        "robertfrench#2823 (robbiedobbie)": 71
+        "robertfrench#2823 (robbiedobbie)": 71,
+        "Birdwatcher123": 91
       },
       {
         "Julius": 85,
-        "Mliguori16 (Birdwatcher123)": 98
+        "Birdwatcher123": 98
       },
       {
         "BlackSpice28": 104,
@@ -27586,8 +27586,8 @@
         "ethmah01": 108
       },
       {
-        "Mliguori16 (Birdwatcher123)": 79,
-        "BlackSpice28": 80
+        "BlackSpice28": 80,
+        "Birdwatcher123": 79
       },
       {
         "robertfrench#2823 (robbiedobbie)": 80,
@@ -27678,12 +27678,12 @@
         "DurdleGerg": 89
       },
       {
-        "Wingsplain": 86,
-        "EpicSaxGuy": 85
+        "EpicSaxGuy": 85,
+        "Wingsplain Gaming (ShadowFox)": 86
       },
       {
-        "eefdeaardappel (ooievaar) - The Netherlands": 83,
-        "ElsieGlen": 73
+        "ElsieGlen": 73,
+        "ooievaar": 83
       },
       {
         "Falblinger": 77,
@@ -27695,11 +27695,11 @@
       },
       {
         "EpicSaxGuy": 122,
-        "eefdeaardappel (ooievaar) - The Netherlands": 82
+        "ooievaar": 82
       },
       {
         "fxelxyy (he/him) (fxelxyy)": 81,
-        "Wingsplain": 70
+        "Wingsplain Gaming (ShadowFox)": 70
       },
       {
         "Falblinger": 79,
@@ -27714,12 +27714,12 @@
         "burrit0bell": 80
       },
       {
-        "Wingsplain": 87,
-        "eefdeaardappel (ooievaar) - The Netherlands": 97
+        "Wingsplain Gaming (ShadowFox)": 87,
+        "ooievaar": 97
       },
       {
         "Falblinger": 82,
-        "Wingsplain": 101
+        "Wingsplain Gaming (ShadowFox)": 101
       },
       {
         "burrit0bell": 79,
@@ -27730,20 +27730,20 @@
         "EpicSaxGuy": 117
       },
       {
-        "Wingsplain": 104,
-        "burrit0bell": 92
+        "burrit0bell": 92,
+        "Wingsplain Gaming (ShadowFox)": 104
       },
       {
-        "eefdeaardappel (ooievaar) - The Netherlands": 88,
-        "Falblinger": 96
+        "Falblinger": 96,
+        "ooievaar": 88
       },
       {
         "burrit0bell": 98,
-        "eefdeaardappel (ooievaar) - The Netherlands": 77
+        "ooievaar": 77
       },
       {
         "ElsieGlen": 104,
-        "Wingsplain": 87
+        "Wingsplain Gaming (ShadowFox)": 87
       },
       {
         "EpicSaxGuy": 110,
@@ -27751,7 +27751,7 @@
       },
       {
         "Jollyroll": 115,
-        "oakie6439\t(oakie)": 74
+        "oakie": 74
       },
       {
         "Lauris": 97,
@@ -27766,8 +27766,8 @@
         "jeastthebeast": 106
       },
       {
-        "oakie6439\t(oakie)": 74,
-        "Lauris": 93
+        "Lauris": 93,
+        "oakie": 74
       },
       {
         "MichaelTheGrackle": 103,
@@ -27779,15 +27779,15 @@
       },
       {
         "jeastthebeast": 112,
-        "oakie6439\t(oakie)": 107
+        "oakie": 107
       },
       {
         "Bargoff": 93,
         "L\u00f6ris (IGN:lrnz147)": 95
       },
       {
-        "oakie6439\t(oakie)": 81,
-        "Bargoff": 71
+        "Bargoff": 71,
+        "oakie": 81
       },
       {
         "MichaelTheGrackle": 86,
@@ -27807,7 +27807,7 @@
       },
       {
         "L\u00f6ris (IGN:lrnz147)": 70,
-        "oakie6439\t(oakie)": 90
+        "oakie": 90
       },
       {
         "MichaelTheGrackle": 85,
@@ -27830,8 +27830,8 @@
         "Jollyroll": 79
       },
       {
-        "oakie6439\t(oakie)": 106,
-        "MichaelTheGrackle": 80
+        "MichaelTheGrackle": 80,
+        "oakie": 106
       },
       {
         "RickCissel": 91,
@@ -28167,15 +28167,15 @@
       },
       {
         "PoeticCube (TheFourthHabitat)": 78,
-        "No~M l IGN: danaran": 97
+        "No~M (danaran)": 97
       },
       {
         "Radiatoriui ragas#3561 (ilovebirbs)": 90,
         "Snakejack1#0504 (AverythePigeon)": 108
       },
       {
-        "No~M l IGN: danaran": 91,
-        "Radiatoriui ragas#3561 (ilovebirbs)": 86
+        "Radiatoriui ragas#3561 (ilovebirbs)": 86,
+        "No~M (danaran)": 91
       },
       {
         "sibert": 95,
@@ -28195,7 +28195,7 @@
       },
       {
         "Snakejack1#0504 (AverythePigeon)": 88,
-        "No~M l IGN: danaran": 113
+        "No~M (danaran)": 113
       },
       {
         "sibert": 99,
@@ -28218,12 +28218,12 @@
         "Ireku": 96
       },
       {
-        "No~M l IGN: danaran": 97,
-        "sibert": 96
+        "sibert": 96,
+        "No~M (danaran)": 97
       },
       {
         "Ireku": 103,
-        "No~M l IGN: danaran": 80
+        "No~M (danaran)": 80
       },
       {
         "Manggoose": 75,
@@ -28238,8 +28238,8 @@
         "PoeticCube (TheFourthHabitat)": 90
       },
       {
-        "No~M l IGN: danaran": 85,
-        "Manggoose": 76
+        "Manggoose": 76,
+        "No~M (danaran)": 85
       },
       {
         "sibert": 75,
@@ -28414,12 +28414,12 @@
         "miasma#9297 (Miasma)": 91
       },
       {
-        "No~M l IGN: danaran": 79,
-        "Jlim (Johnlim)": 78
+        "Jlim (Johnlim)": 78,
+        "No~M (danaran)": 79
       },
       {
-        "No~M l IGN: danaran": 92,
-        "Jlim (Johnlim)": 76
+        "Jlim (Johnlim)": 76,
+        "No~M (danaran)": 92
       },
       {
         "Yellowhammer": 77,
@@ -28559,11 +28559,11 @@
       },
       {
         "jeastthebeast": 89,
-        "Wingsplain": 103
+        "Wingsplain Gaming (ShadowFox)": 103
       },
       {
         "jeastthebeast": 78,
-        "Wingsplain": 97
+        "Wingsplain Gaming (ShadowFox)": 97
       },
       {
         "blazerfanyc": 77,
@@ -28575,15 +28575,15 @@
       },
       {
         "slowPigeon": 86,
-        "No~M l IGN: danaran": 75
+        "No~M (danaran)": 75
       },
       {
         "slowPigeon": 96,
-        "No~M l IGN: danaran": 96
+        "No~M (danaran)": 96
       },
       {
         "slowPigeon": 74,
-        "No~M l IGN: danaran": 117
+        "No~M (danaran)": 117
       },
       {
         "Dozi": 84,
@@ -28719,15 +28719,15 @@
       },
       {
         "Julius": 106,
-        "Wingsplain": 99
+        "Wingsplain Gaming (ShadowFox)": 99
       },
       {
         "Julius": 82,
-        "Wingsplain": 86
+        "Wingsplain Gaming (ShadowFox)": 86
       },
       {
         "Julius": 111,
-        "Wingsplain": 80
+        "Wingsplain Gaming (ShadowFox)": 80
       },
       {
         "Rocketfuel": 148,
@@ -28738,12 +28738,12 @@
         "RickCissel": 101
       },
       {
-        "No~M l IGN: danaran": 111,
-        "FloatingLakes": 101
+        "FloatingLakes": 101,
+        "No~M (danaran)": 111
       },
       {
-        "No~M l IGN: danaran": 96,
-        "FloatingLakes": 79
+        "FloatingLakes": 79,
+        "No~M (danaran)": 96
       },
       {
         "yordthesword": 94,
@@ -28822,16 +28822,16 @@
         "Rocketfuel": 103
       },
       {
-        "No~M l IGN: danaran": 103,
-        "yordthesword": 102
+        "yordthesword": 102,
+        "No~M (danaran)": 103
       },
       {
-        "No~M l IGN: danaran": 89,
-        "yordthesword": 93
+        "yordthesword": 93,
+        "No~M (danaran)": 89
       },
       {
-        "No~M l IGN: danaran": 116,
-        "yordthesword": 118
+        "yordthesword": 118,
+        "No~M (danaran)": 116
       },
       {
         "Flan": 93,
@@ -29042,16 +29042,16 @@
         "Alex (IGN: Zarypov)": 81
       },
       {
-        "HAyAsIiI (slowPigeon)": 91,
-        "jeastthebeast": 78
+        "jeastthebeast": 78,
+        "slowPigeon": 91
       },
       {
-        "HAyAsIiI (slowPigeon)": 96,
-        "jeastthebeast": 115
+        "jeastthebeast": 115,
+        "slowPigeon": 96
       },
       {
-        "HAyAsIiI (slowPigeon)": 93,
-        "jeastthebeast": 87
+        "jeastthebeast": 87,
+        "slowPigeon": 93
       },
       {
         "Khamul": 60,
@@ -29098,12 +29098,12 @@
         "Nuhring": 90
       },
       {
-        "Mliguori16 (Birdwatcher123)": 79,
-        "EpicSaxGuy": 98
+        "EpicSaxGuy": 98,
+        "Birdwatcher123": 79
       },
       {
-        "Mliguori16 (Birdwatcher123)": 72,
-        "EpicSaxGuy": 105
+        "EpicSaxGuy": 105,
+        "Birdwatcher123": 72
       },
       {
         "Groovenstein": 107,
@@ -29206,16 +29206,16 @@
         "BilboBobbins": 81
       },
       {
-        "oakie6439\t(oakie)": 79,
-        "BoboMcBob": 100
+        "BoboMcBob": 100,
+        "oakie": 79
       },
       {
-        "oakie6439\t(oakie)": 84,
-        "BoboMcBob": 77
+        "BoboMcBob": 77,
+        "oakie": 84
       },
       {
-        "oakie6439\t(oakie)": 95,
-        "BoboMcBob": 72
+        "BoboMcBob": 72,
+        "oakie": 95
       },
       {
         "ChopYouUp": 84,
@@ -29342,12 +29342,12 @@
         "Sim17": 116
       },
       {
-        "HAyAsIiI (slowPigeon)": 111,
-        "FloatingLakes": 110
+        "FloatingLakes": 110,
+        "slowPigeon": 111
       },
       {
-        "HAyAsIiI (slowPigeon)": 99,
-        "FloatingLakes": 87
+        "FloatingLakes": 87,
+        "slowPigeon": 99
       },
       {
         "dannymq": 96,
@@ -29415,11 +29415,11 @@
       },
       {
         "Tayray": 102,
-        "oakie6439\t(oakie)": 76
+        "oakie": 76
       },
       {
         "Tayray": 92,
-        "oakie6439\t(oakie)": 91
+        "oakie": 91
       },
       {
         "ChopYouUp": 107,
@@ -29482,12 +29482,12 @@
         "Spoonopher": 74
       },
       {
-        "HAyAsIiI (slowPigeon)": 85,
-        "BlackSpice28": 70
+        "BlackSpice28": 70,
+        "slowPigeon": 85
       },
       {
-        "HAyAsIiI (slowPigeon)": 88,
-        "BlackSpice28": 82
+        "BlackSpice28": 82,
+        "slowPigeon": 88
       },
       {
         "Nuhring": 106,
@@ -29558,16 +29558,16 @@
         "Sim17": 96
       },
       {
-        "HAyAsIiI (slowPigeon)": 105,
-        "EpicSaxGuy": 98
+        "EpicSaxGuy": 98,
+        "slowPigeon": 105
       },
       {
-        "HAyAsIiI (slowPigeon)": 93,
-        "EpicSaxGuy": 96
+        "EpicSaxGuy": 96,
+        "slowPigeon": 93
       },
       {
-        "HAyAsIiI (slowPigeon)": 100,
-        "EpicSaxGuy": 101
+        "EpicSaxGuy": 101,
+        "slowPigeon": 100
       },
       {
         "GracklinOatBrant": 87,
@@ -29831,7 +29831,7 @@
       },
       {
         "Volzyman": 85,
-        "HAyAsIiI (slowPigeon)": 85
+        "slowPigeon": 85
       },
       {
         "RickCissel": 95,
@@ -29842,8 +29842,8 @@
         "jcrunk17 (freshavacadu)": 102
       },
       {
-        "HAyAsIiI (slowPigeon)": 96,
-        "BlackCatMiles": 101
+        "BlackCatMiles": 101,
+        "slowPigeon": 96
       },
       {
         "Jlim (Johnlim)": 81,
@@ -29875,7 +29875,7 @@
       },
       {
         "BlackSpice28": 81,
-        "HAyAsIiI (slowPigeon)": 105
+        "slowPigeon": 105
       },
       {
         "Wingspanner": 92,
@@ -29886,8 +29886,8 @@
         "BlackSpice28": 91
       },
       {
-        "HAyAsIiI (slowPigeon)": 96,
-        "RickCissel": 86
+        "RickCissel": 86,
+        "slowPigeon": 96
       },
       {
         "Sim17": 129,
@@ -29910,8 +29910,8 @@
         "Wingspanner": 119
       },
       {
-        "HAyAsIiI (slowPigeon)": 97,
-        "Jlim (Johnlim)": 70
+        "Jlim (Johnlim)": 70,
+        "slowPigeon": 97
       },
       {
         "Jlim (Johnlim)": 108,
@@ -29919,7 +29919,7 @@
       },
       {
         "Wingspanner": 98,
-        "HAyAsIiI (slowPigeon)": 88
+        "slowPigeon": 88
       },
       {
         "Sim17": 118,
@@ -29942,8 +29942,8 @@
         "jcrunk17 (freshavacadu)": 82
       },
       {
-        "HAyAsIiI (slowPigeon)": 106,
-        "Sim17": 106
+        "Sim17": 106,
+        "slowPigeon": 106
       },
       {
         "Jlim (Johnlim)": 95,
@@ -29959,7 +29959,7 @@
       },
       {
         "jcrunk17 (freshavacadu)": 82,
-        "HAyAsIiI (slowPigeon)": 86
+        "slowPigeon": 86
       },
       {
         "Puffin (Puffin53)": 88,
@@ -29970,8 +29970,8 @@
         "BlackCatMiles": 106
       },
       {
-        "HAyAsIiI (slowPigeon)": 80,
-        "Puffin (Puffin53)": 109
+        "Puffin (Puffin53)": 109,
+        "slowPigeon": 80
       },
       {
         "BlackSpice28": 114,
@@ -30171,7 +30171,7 @@
       },
       {
         "GracklinOatBrant": 125,
-        "nardybux (MonkeyWren)": 101
+        "MonkeyWren": 101
       },
       {
         "ethmah01": 120,
@@ -30206,8 +30206,8 @@
         "HanScholesy": 81
       },
       {
-        "nardybux (MonkeyWren)": 91,
-        "FrankieDux": 87
+        "FrankieDux": 87,
+        "MonkeyWren": 91
       },
       {
         "GracklinOatBrant": 83,
@@ -30226,8 +30226,8 @@
         "ethmah01": 102
       },
       {
-        "nardybux (MonkeyWren)": 103,
-        "Tayray": 105
+        "Tayray": 105,
+        "MonkeyWren": 103
       },
       {
         "bushNIT": 84,
@@ -30235,7 +30235,7 @@
       },
       {
         "Nedmund": 102,
-        "nardybux (MonkeyWren)": 93
+        "MonkeyWren": 93
       },
       {
         "Tayray": 77,
@@ -30262,8 +30262,8 @@
         "Mirderbirder": 79
       },
       {
-        "nardybux (MonkeyWren)": 105,
-        "bushNIT": 92
+        "bushNIT": 92,
+        "MonkeyWren": 105
       },
       {
         "Tayray": 104,
@@ -30279,7 +30279,7 @@
       },
       {
         "Mirderbirder": 61,
-        "nardybux (MonkeyWren)": 71
+        "MonkeyWren": 71
       },
       {
         "ethmah01": 91,
@@ -30298,8 +30298,8 @@
         "HanScholesy": 90
       },
       {
-        "nardybux (MonkeyWren)": 89,
-        "ethmah01": 78
+        "ethmah01": 78,
+        "MonkeyWren": 89
       },
       {
         "Tayray": 100,
@@ -30323,7 +30323,7 @@
       },
       {
         "HanScholesy": 68,
-        "nardybux (MonkeyWren)": 92
+        "MonkeyWren": 92
       },
       {
         "Lauris": 98,
@@ -30334,8 +30334,8 @@
         "HanScholesy": 88
       },
       {
-        "nardybux (MonkeyWren)": 79,
-        "Lauris": 95
+        "Lauris": 95,
+        "MonkeyWren": 79
       },
       {
         "FrankieDux": 99,
@@ -30362,8 +30362,8 @@
         "Bumblewyn": 85
       },
       {
-        "Mliguori16 (Birdwatcher123)": 84,
-        "de Visme": 94
+        "de Visme": 94,
+        "Birdwatcher123": 84
       },
       {
         "krasnyoktyabr": 82,
@@ -30379,7 +30379,7 @@
       },
       {
         "Bumblewyn": 86,
-        "Mliguori16 (Birdwatcher123)": 94
+        "Birdwatcher123": 94
       },
       {
         "Ronster7": 115,
@@ -30398,8 +30398,8 @@
         "ChessChallenger": 81
       },
       {
-        "Mliguori16 (Birdwatcher123)": 86,
-        "Ronster7": 95
+        "Ronster7": 95,
+        "Birdwatcher123": 86
       },
       {
         "krasnyoktyabr": 111,
@@ -30423,15 +30423,15 @@
       },
       {
         "ChessChallenger": 100,
-        "Mliguori16 (Birdwatcher123)": 90
+        "Birdwatcher123": 90
       },
       {
         "BoboMcBob": 86,
         "saephir": 91
       },
       {
-        "Mliguori16 (Birdwatcher123)": 109,
-        "BoboMcBob": 101
+        "BoboMcBob": 101,
+        "Birdwatcher123": 109
       },
       {
         "krasnyoktyabr": 102,
@@ -30467,11 +30467,11 @@
       },
       {
         "saephir": 92,
-        "Mliguori16 (Birdwatcher123)": 78
+        "Birdwatcher123": 78
       },
       {
         "krasnyoktyabr": 76,
-        "Mliguori16 (Birdwatcher123)": 92
+        "Birdwatcher123": 92
       },
       {
         "BalletMage": 88,
@@ -30506,8 +30506,8 @@
         "Orcinus": 120
       },
       {
-        "Mliguori16 (Birdwatcher123)": 95,
-        "BalletMage": 85
+        "BalletMage": 85,
+        "Birdwatcher123": 95
       },
       {
         "de Visme": 115,
@@ -30515,7 +30515,7 @@
       },
       {
         "Orcinus": 84,
-        "Mliguori16 (Birdwatcher123)": 95
+        "Birdwatcher123": 95
       },
       {
         "krasnyoktyabr": 83,
@@ -30547,11 +30547,11 @@
       },
       {
         "BilboBobbins": 103,
-        "Trung (Stalledbird)": 80
+        "Stalledbird": 80
       },
       {
-        "Trung (Stalledbird)": 77,
-        "HonestAbe1": 85
+        "HonestAbe1": 85,
+        "Stalledbird": 77
       },
       {
         "ScaredofBirds": 83,
@@ -30575,7 +30575,7 @@
       },
       {
         "FloatingLakes": 100,
-        "Trung (Stalledbird)": 103
+        "Stalledbird": 103
       },
       {
         "Kolaru": 108,
@@ -30602,8 +30602,8 @@
         "BilboBobbins": 93
       },
       {
-        "Trung (Stalledbird)": 92,
-        "Kolaru": 96
+        "Kolaru": 96,
+        "Stalledbird": 92
       },
       {
         "HonestAbe1": 96,
@@ -30619,7 +30619,7 @@
       },
       {
         "ChopYouUp": 92,
-        "Trung (Stalledbird)": 73
+        "Stalledbird": 73
       },
       {
         "maggie (cedarwax)": 76,
@@ -30638,8 +30638,8 @@
         "ScaredofBirds": 85
       },
       {
-        "Trung (Stalledbird)": 73,
-        "maggie (cedarwax)": 90
+        "maggie (cedarwax)": 90,
+        "Stalledbird": 73
       },
       {
         "HonestAbe1": 84,
@@ -30663,15 +30663,15 @@
       },
       {
         "ScaredofBirds": 92,
-        "Trung (Stalledbird)": 76
+        "Stalledbird": 76
       },
       {
         "Owlstanding": 103,
         "Koko28": 85
       },
       {
-        "Trung (Stalledbird)": 80,
-        "Owlstanding": 93
+        "Owlstanding": 93,
+        "Stalledbird": 80
       },
       {
         "Koko28": 99,
@@ -30707,7 +30707,7 @@
       },
       {
         "Koko28": 82,
-        "Trung (Stalledbird)": 85
+        "Stalledbird": 85
       },
       {
         "POTLANDOR": 89,
@@ -31394,8 +31394,8 @@
         "Flan": 87
       },
       {
-        "HaveAGoodOne": 89,
-        "Sittingducks": 63
+        "Sittingducks": 63,
+        "Kip (ign: HaveAGoodOne)": 89
       },
       {
         "Jlim (Johnlim)": 93,
@@ -31478,8 +31478,8 @@
         "Nedmund": 92
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 91,
-        "HanScholesy": 78
+        "HanScholesy": 78,
+        "ooievaar": 91
       },
       {
         "zafy": 106,
@@ -31507,7 +31507,7 @@
       },
       {
         "Flan": 94,
-        "HaveAGoodOne": 91
+        "Kip (ign: HaveAGoodOne)": 91
       },
       {
         "No~M (danaran)": 85,
@@ -31550,8 +31550,8 @@
         "Nedmund": 84
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 88,
-        "funbun": 99
+        "funbun": 99,
+        "ooievaar": 88
       },
       {
         "BilboBobbins": 101,
@@ -31674,8 +31674,8 @@
         "BalletMage": 92
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 74,
-        "Captainawesome": 80
+        "Captainawesome": 80,
+        "ooievaar": 74
       },
       {
         "Rafa (oakie)": 92,
@@ -31718,8 +31718,8 @@
         "ChopYouUp": 85
       },
       {
-        "HaveAGoodOne": 114,
-        "WhatDatFrogmoufDo (GMT -5)": 100
+        "WhatDatFrogmoufDo (GMT -5)": 100,
+        "Kip (ign: HaveAGoodOne)": 114
       },
       {
         "burrit0bell": 96,
@@ -31758,8 +31758,8 @@
         "No~M (danaran)": 96
       },
       {
-        "HaveAGoodOne": 83,
-        "burrit0bell": 94
+        "burrit0bell": 94,
+        "Kip (ign: HaveAGoodOne)": 83
       },
       {
         "ChessChallenger": 94,
@@ -31986,8 +31986,8 @@
         "thebangzats": 79
       },
       {
-        "HAyAsIiI (slowPigeon)": 69,
-        "Tayray": 82
+        "Tayray": 82,
+        "slowPigeon": 69
       },
       {
         "Kopdog": 80,
@@ -32163,7 +32163,7 @@
       },
       {
         "thebangzats": 99,
-        "HAyAsIiI (slowPigeon)": 107
+        "slowPigeon": 107
       },
       {
         "Yellowhammer": 86,
@@ -32707,19 +32707,19 @@
       },
       {
         "Waterman": 91,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 74
+        "ooievaar": 74
       },
       {
         "Waterman": 97,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 89
+        "ooievaar": 89
       },
       {
         "Waterman": 78,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 84
+        "ooievaar": 84
       },
       {
         "Waterman": 106,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 78
+        "ooievaar": 78
       },
       {
         "Flan": 114,
@@ -33006,16 +33006,16 @@
         "HanScholesy": 72
       },
       {
-        "HAyAsIiI (slowPigeon)": 90,
-        "Dragon Label": 77
+        "Dragon Label": 77,
+        "slowPigeon": 90
       },
       {
-        "HAyAsIiI (slowPigeon)": 114,
-        "Dragon Label": 76
+        "Dragon Label": 76,
+        "slowPigeon": 114
       },
       {
-        "HAyAsIiI (slowPigeon)": 98,
-        "Dragon Label": 72
+        "Dragon Label": 72,
+        "slowPigeon": 98
       },
       {
         "ReggaeMuffin": 94,
@@ -33130,16 +33130,16 @@
         "VuFace (maryvu)": 87
       },
       {
-        "Rafa oakie (oakie)": 87,
-        "Fowl": 79
+        "Fowl": 79,
+        "Rafa (oakie)": 87
       },
       {
-        "Rafa oakie (oakie)": 109,
-        "Fowl": 95
+        "Fowl": 95,
+        "Rafa (oakie)": 109
       },
       {
-        "Rafa oakie (oakie)": 109,
-        "Fowl": 88
+        "Fowl": 88,
+        "Rafa (oakie)": 109
       },
       {
         "Entaroadun": 88,
@@ -33663,19 +33663,19 @@
       },
       {
         "Tayray": 96,
-        "HAyAsIiI (slowPigeon)": 81
+        "slowPigeon": 81
       },
       {
         "Tayray": 105,
-        "HAyAsIiI (slowPigeon)": 102
+        "slowPigeon": 102
       },
       {
         "Tayray": 97,
-        "HAyAsIiI (slowPigeon)": 105
+        "slowPigeon": 105
       },
       {
         "Tayray": 93,
-        "HAyAsIiI (slowPigeon)": 75
+        "slowPigeon": 75
       },
       {
         "ReggaeMuffin": 86,
@@ -33731,19 +33731,19 @@
       },
       {
         "Ronster7": 101,
-        "Rafa oakie (oakie)": 113
+        "Rafa (oakie)": 113
       },
       {
         "Ronster7": 94,
-        "Rafa oakie (oakie)": 95
+        "Rafa (oakie)": 95
       },
       {
         "Ronster7": 107,
-        "Rafa oakie (oakie)": 94
+        "Rafa (oakie)": 94
       },
       {
         "Ronster7": 80,
-        "Rafa oakie (oakie)": 94
+        "Rafa (oakie)": 94
       },
       {
         "Entaroadun": 96,
@@ -34030,20 +34030,20 @@
         "Stoney318": 90
       },
       {
-        "Rafa oakie (oakie)": 94,
-        "Entaroadun": 91
+        "Entaroadun": 91,
+        "Rafa (oakie)": 94
       },
       {
-        "Rafa oakie (oakie)": 103,
-        "Entaroadun": 80
+        "Entaroadun": 80,
+        "Rafa (oakie)": 103
       },
       {
-        "Rafa oakie (oakie)": 95,
-        "Entaroadun": 104
+        "Entaroadun": 104,
+        "Rafa (oakie)": 95
       },
       {
-        "Rafa oakie (oakie)": 95,
-        "Entaroadun": 77
+        "Entaroadun": 77,
+        "Rafa (oakie)": 95
       },
       {
         "ethmah01": 94,
@@ -34171,23 +34171,23 @@
       },
       {
         "Stoney318": 101,
-        "Rafa oakie (oakie)": 101
+        "Rafa (oakie)": 101
       },
       {
         "Stoney318": 99,
-        "Rafa oakie (oakie)": 94
+        "Rafa (oakie)": 94
       },
       {
         "Stoney318": 104,
-        "Rafa oakie (oakie)": 99
+        "Rafa (oakie)": 99
       },
       {
         "Stoney318": 99,
-        "Rafa oakie (oakie)": 100
+        "Rafa (oakie)": 100
       },
       {
         "Stoney318": 96,
-        "Rafa oakie (oakie)": 102
+        "Rafa (oakie)": 102
       },
       {
         "ethmah01": 91,
@@ -34519,11 +34519,11 @@
       },
       {
         "ReggaeMuffin": 88,
-        "HAyAsIiI (slowPigeon)": 87
+        "slowPigeon": 87
       },
       {
         "ReggaeMuffin": 94,
-        "HAyAsIiI (slowPigeon)": 88
+        "slowPigeon": 88
       },
       {
         "FloatingLakes": 94,
@@ -36054,8 +36054,8 @@
     "date": "2021-12-26T20:45:08.165-05:00",
     "scores": [
       {
-        "HAyAsIiI (slowPigeon)": 110,
-        "oakie": 82
+        "oakie": 82,
+        "slowPigeon": 110
       },
       {
         "Lauris": 90,
@@ -36182,8 +36182,8 @@
         "Tayray": 115
       },
       {
-        "HAyAsIiI (slowPigeon)": 84,
-        "Lauris": 87
+        "Lauris": 87,
+        "slowPigeon": 84
       },
       {
         "saephir": 79,
@@ -40922,20 +40922,20 @@
         "Moops": 90
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 77,
-        "Heartseed": 88
+        "Heartseed": 88,
+        "ooievaar": 77
       },
       {
         "Moops": 91,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 89
+        "ooievaar": 89
       },
       {
         "ChopYouUp": 99,
         "SegalLikeTheBird": 83
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 63,
-        "ChopYouUp": 99
+        "ChopYouUp": 99,
+        "ooievaar": 63
       },
       {
         "Heartseed": 97,
@@ -40947,7 +40947,7 @@
       },
       {
         "SegalLikeTheBird": 89,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 84
+        "ooievaar": 84
       },
       {
         "Heartseed": 77,
@@ -40963,11 +40963,11 @@
       },
       {
         "Heartseed": 77,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 102
+        "ooievaar": 102
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 79,
-        "Moops": 70
+        "Moops": 70,
+        "ooievaar": 79
       },
       {
         "SegalLikeTheBird": 93,
@@ -40975,7 +40975,7 @@
       },
       {
         "ChopYouUp": 99,
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 91
+        "ooievaar": 91
       },
       {
         "Moops": 108,
@@ -40986,8 +40986,8 @@
         "ChopYouUp": 90
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 89,
-        "SegalLikeTheBird": 93
+        "SegalLikeTheBird": 93,
+        "ooievaar": 89
       },
       {
         "SegalLikeTheBird": 96,
@@ -41458,8 +41458,8 @@
         "GeekoSuave": 82
       },
       {
-        "e8v2000 (ScaredofBirds)": 82,
-        "Heartseed": 86
+        "Heartseed": 86,
+        "ScaredofBirds": 82
       },
       {
         "Tayray": 90,
@@ -41482,8 +41482,8 @@
         "JuliusDiamond": 100
       },
       {
-        "e8v2000 (ScaredofBirds)": 98,
-        "LadyLleina - USA": 93
+        "LadyLleina - USA": 93,
+        "ScaredofBirds": 98
       },
       {
         "FloatingLakes": 109,
@@ -41507,7 +41507,7 @@
       },
       {
         "JuliusDiamond": 82,
-        "e8v2000 (ScaredofBirds)": 81
+        "ScaredofBirds": 81
       },
       {
         "Tayray": 93,
@@ -41530,12 +41530,12 @@
         "FloatingLakes": 101
       },
       {
-        "e8v2000 (ScaredofBirds)": 88,
-        "Tayray": 96
+        "Tayray": 96,
+        "ScaredofBirds": 88
       },
       {
         "FloatingLakes": 75,
-        "e8v2000 (ScaredofBirds)": 80
+        "ScaredofBirds": 80
       },
       {
         "ethmah01": 83,
@@ -41558,8 +41558,8 @@
         "Spartanfan13": 96
       },
       {
-        "e8v2000 (ScaredofBirds)": 98,
-        "ethmah01": 114
+        "ethmah01": 114,
+        "ScaredofBirds": 98
       },
       {
         "Tayray": 96,
@@ -41571,7 +41571,7 @@
       },
       {
         "Spartanfan13": 91,
-        "e8v2000 (ScaredofBirds)": 77
+        "ScaredofBirds": 77
       },
       {
         "Heartseed": 101,
@@ -41799,7 +41799,7 @@
       },
       {
         "jeastthebeast": 92,
-        "eefdeaardappel (ooievaar) - The Netherlands": 94
+        "ooievaar": 94
       },
       {
         "yesod": 66,
@@ -41822,12 +41822,12 @@
         "marksluimer (MrSnooze) - The Netherlands": 81
       },
       {
-        "eefdeaardappel (ooievaar) - The Netherlands": 89,
-        "yesod": 72
+        "yesod": 72,
+        "ooievaar": 89
       },
       {
         "marksluimer (MrSnooze) - The Netherlands": 69,
-        "eefdeaardappel (ooievaar) - The Netherlands": 75
+        "ooievaar": 75
       },
       {
         "Goldie \t(GoldieOnPhone)": 102,
@@ -41842,8 +41842,8 @@
         "motherlove": 78
       },
       {
-        "eefdeaardappel (ooievaar) - The Netherlands": 91,
-        "Goldie \t(GoldieOnPhone)": 91
+        "Goldie \t(GoldieOnPhone)": 91,
+        "ooievaar": 91
       },
       {
         "yesod": 77,
@@ -41855,15 +41855,15 @@
       },
       {
         "motherlove": 97,
-        "eefdeaardappel (ooievaar) - The Netherlands": 77
+        "ooievaar": 77
       },
       {
         "Digger": 93,
         "jeastthebeast": 98
       },
       {
-        "eefdeaardappel (ooievaar) - The Netherlands": 100,
-        "Digger": 104
+        "Digger": 104,
+        "ooievaar": 100
       },
       {
         "yesod": 80,
@@ -42006,8 +42006,8 @@
         "KakarikiNZ": 82
       },
       {
-        "Shiny (ShinyEmmy)": 77,
-        "Flan": 94
+        "Flan": 94,
+        "ShinyEmmy": 77
       },
       {
         "yordthesword": 80,
@@ -42023,7 +42023,7 @@
       },
       {
         "Heartseed": 88,
-        "e8v2000 (ScaredofBirds)": 79
+        "ScaredofBirds": 79
       },
       {
         "LadyLleina - USA": 67,
@@ -42035,11 +42035,11 @@
       },
       {
         "FrankieDux": 115,
-        "e8v2000 (ScaredofBirds)": 70
+        "ScaredofBirds": 70
       },
       {
-        "Shiny (ShinyEmmy)": 68,
-        "Moops": 93
+        "Moops": 93,
+        "ShinyEmmy": 68
       },
       {
         "nerns (TeaChickadee)": 82,
@@ -42131,11 +42131,11 @@
       },
       {
         "KakarikiNZ": 73,
-        "Shiny (ShinyEmmy)": 70
+        "ShinyEmmy": 70
       },
       {
-        "e8v2000 (ScaredofBirds)": 79,
-        "ChuckAus": 72
+        "ChuckAus": 72,
+        "ScaredofBirds": 79
       },
       {
         "ChopYouUp": 83,
@@ -42155,7 +42155,7 @@
       },
       {
         "LadyLleina - USA": 84,
-        "e8v2000 (ScaredofBirds)": 86
+        "ScaredofBirds": 86
       },
       {
         "FrankieDux": 105,
@@ -42179,7 +42179,7 @@
       },
       {
         "ChuckAus": 81,
-        "Shiny (ShinyEmmy)": 85
+        "ShinyEmmy": 85
       },
       {
         "dannymq": 73,
@@ -42215,7 +42215,7 @@
       },
       {
         "Djhcgz": 94,
-        "e8v2000 (ScaredofBirds)": 103
+        "ScaredofBirds": 103
       },
       {
         "GeekoSuave": 84,
@@ -42238,8 +42238,8 @@
         "LadyLleina - USA": 86
       },
       {
-        "Shiny (ShinyEmmy)": 59,
-        "JuliusDiamond": 89
+        "JuliusDiamond": 89,
+        "ShinyEmmy": 59
       },
       {
         "Taygeta": 85,
@@ -42306,8 +42306,8 @@
         "FloatingLakes": 103
       },
       {
-        "nsegal14 (SegalLikeTheBird)": 83,
-        "Flan": 87
+        "Flan": 87,
+        "SegalLikeTheBird": 83
       },
       {
         "ChopYouUp": 81,
@@ -42318,8 +42318,8 @@
         "jeastthebeast": 127
       },
       {
-        "e8v2000 (ScaredofBirds)": 113,
-        "Tayray": 96
+        "Tayray": 96,
+        "ScaredofBirds": 113
       },
       {
         "JuliusDiamond": 80,
@@ -42342,8 +42342,8 @@
         "jeastthebeast": 84
       },
       {
-        "e8v2000 (ScaredofBirds)": 75,
-        "Digger": 81
+        "Digger": 81,
+        "ScaredofBirds": 75
       },
       {
         "Moops": 104,
@@ -42378,8 +42378,8 @@
         "JunePaik": 93
       },
       {
-        "nsegal14 (SegalLikeTheBird)": 85,
-        "Tabpub": 87
+        "Tabpub": 87,
+        "SegalLikeTheBird": 85
       },
       {
         "ethmah01": 87,
@@ -42414,8 +42414,8 @@
         "ChopYouUp": 72
       },
       {
-        "e8v2000 (ScaredofBirds)": 102,
-        "Tabpub": 93
+        "Tabpub": 93,
+        "ScaredofBirds": 102
       },
       {
         "jeastthebeast": 111,
@@ -42423,7 +42423,7 @@
       },
       {
         "Moops": 82,
-        "e8v2000 (ScaredofBirds)": 73
+        "ScaredofBirds": 73
       },
       {
         "FrankieDux": 68,
@@ -42947,7 +42947,7 @@
     "scores": [
       {
         "jeastthebeast": 86,
-        "FlanSwitch": 107
+        "Flan": 107
       },
       {
         "ethmah01": 97,
@@ -42955,7 +42955,7 @@
       },
       {
         "BarnyardNewt": 100,
-        "FlanSwitch": 91
+        "Flan": 91
       },
       {
         "Spartanfan13": 87,
@@ -42974,8 +42974,8 @@
         "ethmah01": 104
       },
       {
-        "mellymelyay": 97,
-        "Dunnock": 100
+        "Dunnock": 100,
+        "mcdo0530 (mellymelyay)": 97
       },
       {
         "Tuckleberry skin": 83,
@@ -43031,7 +43031,7 @@
       },
       {
         "Spartanfan13": 100,
-        "FlanSwitch": 124
+        "Flan": 124
       },
       {
         "Deddo96 (pokededo96)": 89,
@@ -43039,7 +43039,7 @@
       },
       {
         "Digger": 83,
-        "mellymelyay": 95
+        "mcdo0530 (mellymelyay)": 95
       },
       {
         "Malue": 98,
@@ -43047,15 +43047,15 @@
       },
       {
         "ethmah01": 91,
-        "FlanSwitch": 100
+        "Flan": 100
       },
       {
         "jeastthebeast": 89,
-        "mellymelyay": 82
+        "mcdo0530 (mellymelyay)": 82
       },
       {
         "Malue": 98,
-        "FlanSwitch": 75
+        "Flan": 75
       },
       {
         "Dunnock": 86,
@@ -43103,7 +43103,7 @@
       },
       {
         "Djhcgz": 97,
-        "mellymelyay": 74
+        "mcdo0530 (mellymelyay)": 74
       },
       {
         "Dragan": 83,
@@ -43154,8 +43154,8 @@
         "funbun": 81
       },
       {
-        "mellymelyay": 77,
-        "Dragan": 87
+        "Dragan": 87,
+        "mcdo0530 (mellymelyay)": 77
       },
       {
         "Tayray": 96,
@@ -43362,8 +43362,8 @@
         "de Visme": 74
       },
       {
-        "Typhus / rnicolas (Typhus)": 94,
-        "pimmetjepom": 57
+        "pimmetjepom": 57,
+        "Typhus": 94
       },
       {
         "ChopYouUp": 111,
@@ -43391,7 +43391,7 @@
       },
       {
         "sccblazer": 87,
-        "Typhus / rnicolas (Typhus)": 81
+        "Typhus": 81
       },
       {
         "jeastthebeast": 91,
@@ -43442,8 +43442,8 @@
         "pimmetjepom": 78
       },
       {
-        "Typhus / rnicolas (Typhus)": 90,
-        "Capitalist111#3362 (Cap)": 87
+        "Capitalist111#3362 (Cap)": 87,
+        "Typhus": 90
       },
       {
         "de Visme": 92,
@@ -43459,7 +43459,7 @@
       },
       {
         "onjens": 85,
-        "Typhus / rnicolas (Typhus)": 70
+        "Typhus": 70
       },
       {
         "Malue": 94,
@@ -43582,12 +43582,12 @@
         "Digger": 98
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 67,
-        "XXDCXBATMAN": 95
+        "XXDCXBATMAN": 95,
+        "ooievaar": 67
       },
       {
-        "Cap": 87,
-        "sccblazer": 100
+        "sccblazer": 100,
+        "Capitalist111#3362 (Cap)": 87
       },
       {
         "RyanAS": 96,
@@ -43610,8 +43610,8 @@
         "GeekoSuave": 76
       },
       {
-        "Cap": 96,
-        "ChopYouUp": 78
+        "ChopYouUp": 78,
+        "Capitalist111#3362 (Cap)": 96
       },
       {
         "kcsunshine14": 71,
@@ -43619,11 +43619,11 @@
       },
       {
         "motherlove": 97,
-        "Cap": 80
+        "Capitalist111#3362 (Cap)": 80
       },
       {
-        "ooievaar\ud83c\uddf3\ud83c\uddf1 (ign moustache)": 85,
-        "vidb1rbgamer": 90
+        "vidb1rbgamer": 90,
+        "ooievaar": 85
       },
       {
         "Digger": 88,

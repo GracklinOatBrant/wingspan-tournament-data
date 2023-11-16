@@ -67,7 +67,8 @@
     $(document).ready(async () => {
         const filterHtml = $("#filters").html();
 
-        const response = await fetch("wingspan_tournaments.json");
+        const todaysDate = new Date().toJSON().slice(0, 10);
+        const response = await fetch(`wingspan_tournaments.json?${todaysDate}`);
         const tourneys = await response.json();
         
         // add month name & year to tourneys from date
@@ -110,7 +111,9 @@
                     this.tourneySelect.append(`<option value="${tourney}">${tourney}</option>`);
                 }
 
-                parentDiv.find('select[multiple]').chosen({});
+                parentDiv.find('select[multiple]').chosen({
+                  case_sensitive_search: false
+                });
 
                 this.clearButton.on("click", (ev) => {
                     this.clear();
