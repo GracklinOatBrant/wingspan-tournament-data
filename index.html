@@ -50,6 +50,8 @@
     <fieldset id="filters">
         <label>Tournament:&nbsp;<select data-placeholder="All tournaments" class="tournament-select" multiple></select></label>
         <label>User:&nbsp;<select data-placeholder="All users" class="user-select" multiple></select></label>
+        <label>From:&nbsp;<input type='date' class='from-date-input'></label>
+        <label>To:&nbsp;<input type='date' class='to-date-input'></label>
         <button class='button is-small clear-filters'>Clear filters</button>
     </fieldset>
     <button class='button is-small is-info' id="add-comparison">
@@ -102,6 +104,8 @@
                 this.tourneySelect = parentDiv.find(".tournament-select");
                 this.clearButton = parentDiv.find(".clear-filters");
                 this.removeButton = parentDiv.find(".remove-comparison");
+                this.fromDateInput = parentDiv.find(".from-date-input");
+                this.toDateInput = parentDiv.find(".to-date-input");
 
                 for (const user of users) {
                     this.userSelect.append(`<option value="${user}">${user}</option>`);
@@ -137,6 +141,14 @@
                     if (this.tourneySelect.val().length && !this.tourneySelect.val().includes(tourneyName(tourney))) {
                         continue;
                     }
+
+                    if (this.fromDateInput.val() && !(Date.parse(this.fromDateInput.val()) <= Date.parse(tourney['date']))) {
+                        continue;
+                    }
+
+                    if (this.toDateInput.val() && !(Date.parse(this.toDateInput.val()) >= Date.parse(tourney['date']))) {
+                        continue;
+                    }
                     
                     for (const scores of tourney.scores) {
                         const users = Object.keys(scores);
@@ -161,6 +173,8 @@
             clear() {
                 this.userSelect.val('').trigger('chosen:updated');
                 this.tourneySelect.val('').trigger('chosen:updated');
+                this.fromDateInput.val('');
+                this.toDateInput.val('');
                 if (this.clearCallback) {
                     this.clearCallback();
                 }
@@ -169,6 +183,8 @@
             on(event, callback) {
                 this.userSelect.on(event, callback);
                 this.tourneySelect.on(event, callback);
+                this.fromDateInput.on(event, callback);
+                this.toDateInput.on(event, callback);
                 this.clearCallback = callback;
             }
 
@@ -179,6 +195,12 @@
                 }
                 if (this.userSelect.val().length) {
                     labelParts.push(`User: ${this.userSelect.val().join(", ")}`);
+                }
+                if (this.fromDateInput.val()) {
+                    labelParts.push(`From ${this.fromDateInput.val()}`);
+                }
+                if (this.toDateInput.val()) {
+                    labelParts.push(`Until ${this.toDateInput.val()}`);
                 }
                 if (labelParts.length) {
                     return labelParts.join(", ");
