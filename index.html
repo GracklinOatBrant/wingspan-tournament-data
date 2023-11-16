@@ -83,7 +83,7 @@
             Add comparison
         </button>
 
-       <div id="scoreHistogram"></div>
+        <div id="scoreHistogram"><center>Loading&hellip;</center><br/></div>
     </div>
 
    <footer>
@@ -253,7 +253,7 @@
             }
         }
 
-        const redrawHistogram = () => {
+        let redrawHistogram = () => {
             const traces = []
             const params = [];
             fieldsets.forEach((fieldset, i) => {
@@ -281,6 +281,8 @@
             q.set('search', JSON.stringify(params));
             history.replaceState({}, '', `${location.pathname}?${q}`);
 
+            $('#scoreHistogram').html('');
+
             // Use plotly to draw a histogram of tournament scores
             Plotly.newPlot('scoreHistogram', traces, {
                 showlegend: true,
@@ -292,6 +294,16 @@
                 }
             });
         };   
+
+        function debounce(func, timeout = 50) {
+          let timer;
+          return (...args) => {
+            clearTimeout(timer);
+            timer = setTimeout(() => { func.apply(this, args); }, timeout);
+          };
+        }
+
+        redrawHistogram = debounce(redrawHistogram);
 
         let fieldsets = [new FilterFieldset($("#filters"))];
 
