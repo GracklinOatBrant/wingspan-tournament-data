@@ -13,7 +13,12 @@
         label {
             display: inline-block;
         }
+
         body {
+            position: relative;
+        }
+
+        .container {
             width: 80%;
             margin: 0 auto;
         }
@@ -31,34 +36,55 @@
             border-radius: 5px;
         }
 
+        fieldset .button {
+            vertical-align: middle;
+        }
+
+        body::after {
+          content: '';
+          display: block;
+          height: 72px;
+        }
+
         footer {
-            position: fixed;
+            position: absolute;
             bottom: 0;
-            padding: 1.5rem;
             left: 0;
             right: 0;
+            width: 100%;
+            padding: 1.5rem;
             text-align: center;
             background: rgb(250, 250, 250);
+            height: 72px;
+        }
+
+        .chosen-container,
+        .chosen-container .chosen-drop,
+        .chosen-container .chosen-choices {
+            max-width: 16rem;
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1 class="title">🦅 Wingspan Tournament Data Visualization 🦢</h1>
     </header>
 
-    <fieldset id="filters">
-        <label>Tournament:&nbsp;<select data-placeholder="All tournaments" class="tournament-select" multiple></select></label>
-        <label>User:&nbsp;<select data-placeholder="All users" class="user-select" multiple></select></label>
-        <label>From:&nbsp;<input type='date' class='from-date-input'></label>
-        <label>To:&nbsp;<input type='date' class='to-date-input'></label>
-        <button class='button is-small clear-filters'>Clear filters</button>
-    </fieldset>
-    <button class='button is-small is-info' id="add-comparison">
-        Add comparison
-    </button>
+    <div class='container'>
+        <fieldset id="filters">
+            <label>Tournament:&nbsp;<select data-placeholder="All tournaments" class="tournament-select" multiple></select></label>
+            <label>User:&nbsp;<select data-placeholder="All users" class="user-select" multiple></select></label>
+            <label>From:&nbsp;<input type='date' class='from-date-input'></label>
+            <label>To:&nbsp;<input type='date' class='to-date-input'></label>
+            <button class='button is-small clear-filters'>Clear filters</button>
+        </fieldset>
+        <button class='button is-small is-info' id="add-comparison">
+            Add comparison
+        </button>
 
-   <div id="scoreHistogram"></div>
+       <div id="scoreHistogram"></div>
+    </div>
 
    <footer>
     Made by 🦆<a href="https://github.com/GracklinOatBrant/wingspan-tournament-data">GracklinOatBrant</a>🕊 &mdash; <a href="https://discord.gg/ryUwcZZYC7">Tournament Discord</a>
@@ -75,9 +101,10 @@
         
         // add month name & year to tourneys from date
         for (const tourney of tourneys) {
-            const date = new Date(tourney.date);
+            const date = tourney.date ? new Date(tourney.date) : new Date();
             tourney.year = date.getFullYear();
             tourney.month = date.toLocaleString('default', { month: 'long' });
+            tourney.date = date;
         }
 
         const userSet = new Set();
@@ -142,11 +169,11 @@
                         continue;
                     }
 
-                    if (this.fromDateInput.val() && !(Date.parse(this.fromDateInput.val()) <= Date.parse(tourney['date']))) {
+                    if (this.fromDateInput.val() && !(Date.parse(this.fromDateInput.val()) <= tourney.date)) {
                         continue;
                     }
 
-                    if (this.toDateInput.val() && !(Date.parse(this.toDateInput.val()) >= Date.parse(tourney['date']))) {
+                    if (this.toDateInput.val() && !(Date.parse(this.toDateInput.val()) >= tourney.date)) {
                         continue;
                     }
                     
