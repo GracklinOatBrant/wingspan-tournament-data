@@ -92,6 +92,9 @@
 </body>
 
 <script>
+    const initParams = JSON.parse(new URLSearchParams(location.search).get('search'));
+    window.initParams = initParams;
+
     $(document).ready(async () => {
         const filterHtml = $("#filters").html();
 
@@ -321,9 +324,10 @@
             return newFieldset;
         }
 
-        const initParams = JSON.parse(new URLSearchParams(location.search).get('search'));
-
-        if (initParams && initParams.length > 1) {
+        if (initParams.length) {
+          for (let key in initParams[0]) {
+            fieldsets[0][key].val(initParams[0][key]).trigger('chosen:updated');
+          }
           initParams.slice(1).forEach(fieldsetParams => {
             const newFieldset = addFieldset();
             for (let key in fieldsetParams) {
