@@ -104,13 +104,16 @@
             const date = tourney.date ? new Date(tourney.date) : new Date();
             tourney.year = date.getFullYear();
             tourney.month = date.toLocaleString('default', { month: 'long' });
-            tourney.date = date;
+
+            for (const game of tourney.games) {
+                game.completed_at = new Date(game.completed_at);
+            }
         }
 
         const userSet = new Set();
         for (const tourney of tourneys) {
-            for (const scores of tourney.scores) {
-                for (const user of Object.keys(scores)) {
+            for (const game of tourney.games) {
+                for (const user of Object.keys(game.scores)) {
                     userSet.add(user);
                 }
             }
@@ -180,33 +183,29 @@
             getScores() {
                 const allScores = [];
 
+                const userVal = this.userSelect.val();
+                const fromVal = this.fromDateInput.val() ? Date.parse(this.fromDateInput.val()) : null;
+                const toVal = this.toDateInput.val() ? Date.parse(this.toDateInput.val()) : null;
+                const tourneyVal = this.tourneySelect.val();
+
                 for (const tourney of tourneys) {
-                    if (this.tourneySelect.val().length && !this.tourneySelect.val().includes(tourneyName(tourney))) {
-                        continue;
-                    }
-
-                    if (this.fromDateInput.val() && !(Date.parse(this.fromDateInput.val()) <= tourney.date)) {
-                        continue;
-                    }
-
-                    if (this.toDateInput.val() && !(Date.parse(this.toDateInput.val()) >= tourney.date)) {
-                        continue;
-                    }
+                    if (tourneyVal.length && !tourneyVal.includes(tourneyName(tourney))) continue;
                     
-                    for (const scores of tourney.scores) {
+                    for (const game of tourney.games) {
+                        const date = game.completed_at;
+
+                        if (fromVal && !(date >= fromVal)) continue;
+                        if (toVal && !(date < toVal)) continue;
+
+                        const scores = game.scores;
                         const users = Object.keys(scores);
 
                         for (let playerIdx = 0; playerIdx < users.length; playerIdx++) {
                             const user = users[playerIdx];
-                            if (this.userSelect.val().length && !this.userSelect.val().includes(user)) {
-                                continue;
-                            }
-                            if (scores[user] == 0) {
-                                continue;
-                            }
+                            if (userVal.length && !userVal.includes(user)) continue;
+                            if (scores[user] == 0) continue;
                             allScores.push(scores[user]);
                         }
-
                     }
                 }
 
