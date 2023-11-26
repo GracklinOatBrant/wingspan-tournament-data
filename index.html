@@ -70,8 +70,20 @@
           gap: 1rem;
         }
 
+        @media screen and (max-width: 1300px) {
+          #userMeanTables {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+
+        @media screen and (max-width: 900px) {
+          #userMeanTables {
+            grid-template-columns: repeat(1, 1fr);
+          }
+        }
+
         .user-table-wrapper {
-          height: 400px;
+          height: 431px;
           border: 1px solid #ccc;
           overflow-y: scroll;
           overflow-x: hidden;
@@ -95,10 +107,6 @@
         .user-table thead tr:first-child th {
           top: 0;
           text-align: center;
-        }
-
-        .user-table {
-          display: inline-block;
         }
 
         .user-table td:nth-child(2) {
@@ -128,7 +136,10 @@
         <div id="scoreHistogram"><center>Loading&hellip;</center><br/></div>
         <br>
 
-        <h2 class='subtitle'>Average Scores by User</h2>
+        <h2 class='subtitle'>
+          Average Scores by User
+          <label>(with at least <input id='minGames' type='number' value='0' style='width: 3rem'/> games)</label>
+        </h2>
         <div id="userMeanTables"></div>
         <br>
     </div>
@@ -139,11 +150,18 @@
 </body>
 
 <script>
+    const initQueryParams = new URLSearchParams(location.search);
     let initParams;
+    let initMinGames;
     try {
-      initParams = JSON.parse(new URLSearchParams(location.search).get('search') || '[]');
+      initParams = JSON.parse(initQueryParams.get('search') || '[]');
     } catch {
       initParams = [];
+    }
+    try {
+      initMinGames = parseInt(initQueryParams.get('minGames') || '0');
+    } catch {
+      initMinGames = 0;
     }
 
     $(document).ready(async () => {
@@ -212,7 +230,7 @@
                     this.removeButton.on("click", (ev) => {
                         this.parentDiv.remove();
                         fieldsets = fieldsets.filter((fieldset) => fieldset !== this);
-                        redrawHistogram();
+                        redraw();
                         return false;
                     });
                 }
@@ -236,7 +254,7 @@
 
             getScores(returnMeans) {
                 const allScores = [];
-                const userMeans = {};
+                const userScores = {};
 
                 const userVal = this.userSelect.val();
                 const fromVal = this.fromDateInput.val() ? Date.parse(this.fromDateInput.val()) : null;
@@ -261,20 +279,25 @@
                             if (scores[user] == 0) continue;
                             allScores.push(scores[user]);
                             
-                            if (userMeans[user]) {
-                                const curr = userMeans[user];
-                                userMeans[user] = {
-                                    mean: (curr.mean * curr.count + scores[user]) / (curr.count + 1),
-                                    count: curr.count + 1
-                                };
+                            if (userScores[user]) {
+                                userScores[user].push(scores[user]);
                             } else {
-                                userMeans[user] = { mean: scores[user], count: 1 };
+                                userScores[user] = [scores[user]];
                             }
                         }
                     }
                 }
 
-                return { allScores, userMeans };
+                const userStats = {};
+                for (const user of Object.keys(userScores)) {
+                    const array = userScores[user];
+                    const n = array.length
+                    const mean = array.reduce((a, b) => a + b) / n
+                    const std = Math.sqrt(array.map(x => Math.pow(x - mean, 2)).reduce((a, b) => a + b) / n)
+                    userStats[user] = { mean, std, n };
+                }
+
+                return { allScores, userStats };
             }
 
             clear() {
@@ -317,13 +340,14 @@
             }
         }
 
-        let redrawHistogram = () => {
+        let redraw = (args) => {
             const traces = []
             const params = [];
             const tables = [];
+            const minGames = $('#minGames').val();
 
             fieldsets.forEach((fieldset, i) => {
-                const { allScores, userMeans } = fieldset.getScores();
+                const { allScores, userStats } = fieldset.getScores();
                 const mean = allScores.reduce((a, b) => a + b, 0) / allScores.length;
                 const label = `${fieldset.getLabel()} (Average Score = ${mean.toFixed(2)})`;
                 const trace = {
@@ -342,36 +366,44 @@
                 traces.push(trace);
                 params.push(fieldset.getParams());
   
+                const round = val => Math.round(val * 10) / 10;
                 const table = [];
-                for (const user of Object.keys(userMeans))
-                    table.push([user, Math.round(userMeans[user].mean * 100)/100, userMeans[user].count ]);
+                for (const user of Object.keys(userStats)) {
+                    const stats = userStats[user];
+                    if (stats.n >= minGames)
+                      table.push([user, round(stats.mean), round(stats.std), stats.n]);
+                }
                 table.sort((a, b) => b[1] - a[1]);
                 tables.push(table);
             });
 
             const q = new URLSearchParams(location.search);
             q.set('search', JSON.stringify(params));
+            q.set('minGames', minGames);
             history.replaceState({}, '', `${location.pathname}?${q}`);
 
-            $('#scoreHistogram').html('');
             $('#userMeanTables').html('');
 
-            // Use plotly to draw a histogram of tournament scores
-            Plotly.newPlot('scoreHistogram', traces, {
-                showlegend: true,
-                barmode: "overlay", 
-                yaxis: {title: 'Fraction of all scores'},
-                legend: {"orientation": "h"},
-                title: {
-                    text: 'Wingspan Tournament Scores'
-                }
-            });
+            if (!args || args.histogram !== false) {
+                $('#scoreHistogram').html('');
+
+                // Use plotly to draw a histogram of tournament scores
+                Plotly.newPlot('scoreHistogram', traces, {
+                    showlegend: true,
+                    barmode: "overlay", 
+                    yaxis: {title: 'Fraction of all scores'},
+                    legend: {"orientation": "h"},
+                    title: {
+                        text: 'Wingspan Tournament Scores'
+                    }
+                });
+            }
 
             for (let i = 0; i < tables.length; i++) {
                 const table = tables[i];
                 const label = fieldsets[i].getLabel();
-                const heads = ['', 'User', 'Avg.', '#'];
-                const headDefs = ['Ranking', 'Name of the user', 'Average score over data slice', 'Number of games in data slice'];
+                const heads = ['User', 'Avg.', 'Std.', '#'];
+                const headDefs = ['Name of the user', 'Average score over data slice', 'Standard deviation over data slice', 'Number of games in data slice'];
                 $('#userMeanTables').append(`<div class='user-table-wrapper'>
                     <table class='table user-table'>
                         <thead>
@@ -383,7 +415,15 @@
                           </tr>
                         </thead>
                         <tbody>
-                            ${table.map((row,j) => `<tr><td>${j+1}</td>${row.map(col => `<td>${col}</td>`).join("")}</tr>`).join("")}
+                            ${table.map((row,j) => `
+                                <tr>
+                                  ${row.map((col,k) => `
+                                      <td>
+                                          ${k ? col : `${j+1}. ${col}`}
+                                      </td>
+                                  `).join("")}
+                                </tr>
+                            `).join("")}
                         </tbody>
                     </table>
                 </div>`);
@@ -398,13 +438,16 @@
           };
         }
 
-        redrawHistogram = debounce(redrawHistogram);
+        redraw = debounce(redraw);
 
         let fieldsets = [new FilterFieldset($("#filters"))];
 
         for (const fieldset of fieldsets) {
-            fieldset.on("change", redrawHistogram);
+            fieldset.on("change", redraw);
         }
+
+        $('#minGames').val(initMinGames);
+        $('#minGames').change(() => redraw({ histogram: false }));
 
         function addFieldset() {
             const newFieldsetEl = $("<fieldset class='filter-fieldset'></fieldset>");
@@ -412,7 +455,7 @@
             newFieldsetEl.append("<button class='button is-small is-warning remove-comparison'>Remove comparison</button>");
             $(".filter-fieldset:last-of-type").after(newFieldsetEl);
             const newFieldset = new FilterFieldset(newFieldsetEl);
-            newFieldset.on("change", redrawHistogram);
+            newFieldset.on("change", redraw);
             fieldsets.push(newFieldset);
             return newFieldset;
         }
@@ -431,11 +474,11 @@
 
         $('#add-comparison').on("click", (ev) => {
             addFieldset();
-            redrawHistogram();
+            redraw();
             return false;
         });
 
-        redrawHistogram();
+        redraw();
     });
 </script>
 </html>
