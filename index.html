@@ -92,8 +92,12 @@
 </body>
 
 <script>
-    const initParams = JSON.parse(new URLSearchParams(location.search).get('search'));
-    window.initParams = initParams;
+    let initParams;
+    try {
+      initParams = JSON.parse(new URLSearchParams(location.search).get('search') || '[]');
+    } catch {
+      initParams = [];
+    }
 
     $(document).ready(async () => {
         const filterHtml = $("#filters").html();
