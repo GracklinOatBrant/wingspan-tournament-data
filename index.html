@@ -63,6 +63,48 @@
         .chosen-container .chosen-choices {
             max-width: 16rem;
         }
+
+        #userMeanTables {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 1rem;
+        }
+
+        .user-table-wrapper {
+          height: 400px;
+          border: 1px solid #ccc;
+          overflow-y: scroll;
+          overflow-x: hidden;
+        }
+
+        .user-table {
+          width: 100%;
+        }
+
+        .user-table thead th {
+          position: sticky;
+          top: 2rem;
+          background: #f8f8f8;
+          max-width: 400px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          border: none;
+          cursor: help;
+        }
+
+        .user-table thead tr:first-child th {
+          top: 0;
+          text-align: center;
+        }
+
+        .user-table {
+          display: inline-block;
+        }
+
+        .user-table td:nth-child(2) {
+          width: 30px;
+          overflow-x: scroll;
+        }
     </style>
 </head>
 
@@ -84,6 +126,11 @@
         </button>
 
         <div id="scoreHistogram"><center>Loading&hellip;</center><br/></div>
+        <br>
+
+        <h2 class='subtitle'>Average Scores by User</h2>
+        <div id="userMeanTables"></div>
+        <br>
     </div>
 
    <footer>
@@ -187,8 +234,9 @@
                 return params;
             }
 
-            getScores() {
+            getScores(returnMeans) {
                 const allScores = [];
+                const userMeans = {};
 
                 const userVal = this.userSelect.val();
                 const fromVal = this.fromDateInput.val() ? Date.parse(this.fromDateInput.val()) : null;
@@ -212,11 +260,21 @@
                             if (userVal.length && !userVal.includes(user)) continue;
                             if (scores[user] == 0) continue;
                             allScores.push(scores[user]);
+                            
+                            if (userMeans[user]) {
+                                const curr = userMeans[user];
+                                userMeans[user] = {
+                                    mean: (curr.mean * curr.count + scores[user]) / (curr.count + 1),
+                                    count: curr.count + 1
+                                };
+                            } else {
+                                userMeans[user] = { mean: scores[user], count: 1 };
+                            }
                         }
                     }
                 }
 
-                return allScores;
+                return { allScores, userMeans };
             }
 
             clear() {
@@ -262,12 +320,14 @@
         let redrawHistogram = () => {
             const traces = []
             const params = [];
+            const tables = [];
+
             fieldsets.forEach((fieldset, i) => {
-                const scores = fieldset.getScores();
-                const mean = scores.reduce((a, b) => a + b, 0) / scores.length;
+                const { allScores, userMeans } = fieldset.getScores();
+                const mean = allScores.reduce((a, b) => a + b, 0) / allScores.length;
                 const label = `${fieldset.getLabel()} (Average Score = ${mean.toFixed(2)})`;
                 const trace = {
-                    x: scores,
+                    x: allScores,
                     type: 'histogram',
                     histnorm: 'probability',
                     opacity: 0.5,
@@ -281,6 +341,12 @@
                 };
                 traces.push(trace);
                 params.push(fieldset.getParams());
+  
+                const table = [];
+                for (const user of Object.keys(userMeans))
+                    table.push([user, Math.round(userMeans[user].mean * 100)/100, userMeans[user].count ]);
+                table.sort((a, b) => b[1] - a[1]);
+                tables.push(table);
             });
 
             const q = new URLSearchParams(location.search);
@@ -288,6 +354,7 @@
             history.replaceState({}, '', `${location.pathname}?${q}`);
 
             $('#scoreHistogram').html('');
+            $('#userMeanTables').html('');
 
             // Use plotly to draw a histogram of tournament scores
             Plotly.newPlot('scoreHistogram', traces, {
@@ -299,6 +366,28 @@
                     text: 'Wingspan Tournament Scores'
                 }
             });
+
+            for (let i = 0; i < tables.length; i++) {
+                const table = tables[i];
+                const label = fieldsets[i].getLabel();
+                const heads = ['', 'User', 'Avg.', '#'];
+                const headDefs = ['Ranking', 'Name of the user', 'Average score over data slice', 'Number of games in data slice'];
+                $('#userMeanTables').append(`<div class='user-table-wrapper'>
+                    <table class='table user-table'>
+                        <thead>
+                          <tr>
+                              <th colspan='${heads.length}' title='${label}'>${label}</th>
+                          </tr>
+                          <tr>
+                              ${heads.map((head,j) => `<th title='${headDefs[j]}'>${head}</th>`).join("")}
+                          </tr>
+                        </thead>
+                        <tbody>
+                            ${table.map((row,j) => `<tr><td>${j+1}</td>${row.map(col => `<td>${col}</td>`).join("")}</tr>`).join("")}
+                        </tbody>
+                    </table>
+                </div>`);
+            }
         };   
 
         function debounce(func, timeout = 50) {
