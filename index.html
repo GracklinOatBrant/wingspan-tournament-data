@@ -113,6 +113,11 @@
           width: 30px;
           overflow-x: scroll;
         }
+
+        .metric-wins td:nth-child(3),
+        .metric-wins th:nth-child(3) {
+          display: none
+        }
     </style>
 </head>
 
@@ -137,7 +142,13 @@
         <br>
 
         <h2 class='subtitle'>
-          Average Scores by User
+          Average
+          <select id='scoreMetric'>
+            <option value='scores'>Score</option>
+            <option value='diffs'>Score Difference</option>
+            <option value='wins'>Win Rate</option>
+          </select>
+          by User
           <label>(with at least <input id='minGames' type='number' value='0' style='width: 3rem'/> games)</label>
         </h2>
         <div id="userMeanTables"></div>
@@ -153,6 +164,7 @@
     const initQueryParams = new URLSearchParams(location.search);
     let initParams;
     let initMinGames;
+    let initScoreMetric;
     try {
       initParams = JSON.parse(initQueryParams.get('search') || '[]');
     } catch {
@@ -163,6 +175,7 @@
     } catch {
       initMinGames = 0;
     }
+    initScoreMetric = initQueryParams.get('scoreMetric') || 'scores';
 
     $(document).ready(async () => {
         const filterHtml = $("#filters").html();
@@ -254,6 +267,8 @@
 
             getScores(returnMeans) {
                 const allScores = [];
+                const userWins = {};
+                const userDiffs = {};
                 const userScores = {};
 
                 const userVal = this.userSelect.val();
@@ -273,6 +288,11 @@
                         const scores = game.scores;
                         const users = Object.keys(scores);
 
+                        const scoreDiff = scores[users[0]] - scores[users[1]];
+                        const scoreDiffs = {};
+                        scoreDiffs[users[0]] = scoreDiff;
+                        scoreDiffs[users[1]] = -1 * scoreDiff;
+
                         for (let playerIdx = 0; playerIdx < users.length; playerIdx++) {
                             const user = users[playerIdx];
                             if (userVal.length && !userVal.includes(user)) continue;
@@ -281,19 +301,28 @@
                             
                             if (userScores[user]) {
                                 userScores[user].push(scores[user]);
+                                userDiffs[user].push(scoreDiffs[user]);
+                                userWins[user].push(user == game.winner | 0);
                             } else {
                                 userScores[user] = [scores[user]];
+                                userDiffs[user] = [scoreDiffs[user]];
+                                userWins[user] = [user == game.winner | 0];
                             }
                         }
                     }
                 }
 
                 const userStats = {};
+
+                let statMetric = userScores;
+                if ($('#scoreMetric').val() == 'diffs') statMetric = userDiffs;
+                if ($('#scoreMetric').val() == 'wins') statMetric = userWins;
+
                 for (const user of Object.keys(userScores)) {
-                    const array = userScores[user];
-                    const n = array.length
-                    const mean = array.reduce((a, b) => a + b) / n
-                    const std = Math.sqrt(array.map(x => Math.pow(x - mean, 2)).reduce((a, b) => a + b) / n)
+                    const array = statMetric[user];
+                    const n = array.length;
+                    const mean = array.reduce((a, b) => a + b) / n;
+                    const std = Math.sqrt(array.map(x => Math.pow(x - mean, 2)).reduce((a, b) => a + b) / n);
                     userStats[user] = { mean, std, n };
                 }
 
@@ -345,6 +374,7 @@
             const params = [];
             const tables = [];
             const minGames = $('#minGames').val();
+            const scoreMetric = $('#scoreMetric').val() || 'scores';
 
             fieldsets.forEach((fieldset, i) => {
                 const { allScores, userStats } = fieldset.getScores();
@@ -366,7 +396,9 @@
                 traces.push(trace);
                 params.push(fieldset.getParams());
   
-                const round = val => Math.round(val * 10) / 10;
+                let roundFac = 10;
+                if ($('#scoreMetric').val() == 'wins') roundFac *= 10;
+                const round = val => Math.round(val * roundFac) / roundFac;
                 const table = [];
                 for (const user of Object.keys(userStats)) {
                     const stats = userStats[user];
@@ -380,6 +412,7 @@
             const q = new URLSearchParams(location.search);
             q.set('search', JSON.stringify(params));
             q.set('minGames', minGames);
+            q.set('scoreMetric', scoreMetric);
             history.replaceState({}, '', `${location.pathname}?${q}`);
 
             $('#userMeanTables').html('');
@@ -403,8 +436,8 @@
                 const table = tables[i];
                 const label = fieldsets[i].getLabel();
                 const heads = ['User', 'Avg.', 'Std.', '#'];
-                const headDefs = ['Name of the user', 'Average score over data slice', 'Standard deviation over data slice', 'Number of games in data slice'];
-                $('#userMeanTables').append(`<div class='user-table-wrapper'>
+                const headDefs = ['Name of the user', 'Average over data slice', 'Standard deviation over data slice', 'Number of games in data slice'];
+                $('#userMeanTables').append(`<div class='user-table-wrapper metric-${$('#scoreMetric').val().replace(' ', '-')}'>
                     <table class='table user-table'>
                         <thead>
                           <tr>
@@ -448,6 +481,9 @@
 
         $('#minGames').val(initMinGames);
         $('#minGames').change(() => redraw({ histogram: false }));
+
+        $('#scoreMetric').val(initScoreMetric);
+        $('#scoreMetric').change(() => redraw({ histogram: false }));
 
         function addFieldset() {
             const newFieldsetEl = $("<fieldset class='filter-fieldset'></fieldset>");
