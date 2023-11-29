@@ -292,6 +292,15 @@
                         const scoreDiffs = {};
                         scoreDiffs[users[0]] = scoreDiff;
                         scoreDiffs[users[1]] = -1 * scoreDiff;
+                        
+                        const winVals = {};
+                        if (scoreDiff == 0) {
+                          winVals[users[0]] = users[0] == game.winner | 0;
+                          winVals[users[1]] = users[1] == game.winner | 0;
+                        } else {
+                          winVals[users[0]] = scoreDiff > 0 | 0;
+                          winVals[users[1]] = scoreDiff < 0 | 0;
+                        }
 
                         for (let playerIdx = 0; playerIdx < users.length; playerIdx++) {
                             const user = users[playerIdx];
@@ -302,11 +311,11 @@
                             if (userScores[user]) {
                                 userScores[user].push(scores[user]);
                                 userDiffs[user].push(scoreDiffs[user]);
-                                userWins[user].push(user == game.winner | 0);
+                                userWins[user].push(winVals[user]);
                             } else {
                                 userScores[user] = [scores[user]];
                                 userDiffs[user] = [scoreDiffs[user]];
-                                userWins[user] = [user == game.winner | 0];
+                                userWins[user] = [winVals[user]];
                             }
                         }
                     }
